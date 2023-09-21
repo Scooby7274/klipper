@@ -1,0 +1,3132 @@
+Args: ['/home/Klipper/klipper/klippy/klippy.py', '/home/Klipper/printer_data/config/printer.cfg', '-l', '/home/Klipper/printer_data/logs/klippy.log', '-I', '/home/Klipper/printer_data/comms/klippy.serial', '-a', '/home/Klipper/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-205-g5f0d252b'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+=============== Log rollover at Sun Sep 17 17:39:59 2023 ===============
+Args: ['/home/Klipper/klipper/klippy/klippy.py', '/home/Klipper/printer_data/config/printer.cfg', '-l', '/home/Klipper/printer_data/logs/klippy.log', '-I', '/home/Klipper/printer_data/comms/klippy.serial', '-a', '/home/Klipper/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-205-g5f0d252b'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Building C code module c_helper.so
+Starting Klippy...
+Args: ['/home/Klipper/klipper/klippy/klippy.py', '/home/Klipper/printer_data/config/printer.cfg', '-l', '/home/Klipper/printer_data/logs/klippy.log', '-I', '/home/Klipper/printer_data/comms/klippy.serial', '-a', '/home/Klipper/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-205-g5f0d252b'
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Building C code module c_helper.so
+Start printer at Sun Sep 17 17:41:15 2023 (1694986876.0 62.9)
+Unable to open config file /home/Klipper/printer_data/config/printer.cfg
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/Klipper/printer_data/config/printer.cfg'
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/Klipper/printer_data/config/printer.cfg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 279, in read_main_config
+    data = self._read_config_file(filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 164, in _read_config_file
+    raise error(msg)
+configparser.Error: Unable to open config file /home/Klipper/printer_data/config/printer.cfg
+webhooks client 1972663272: New connection
+webhooks client 1972663272: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1972663272: Disconnected
+webhooks client 1972664856: New connection
+webhooks client 1972664856: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+Starting Klippy...
+Args: ['/home/Klipper/klipper/klippy/klippy.py', '/home/Klipper/printer_data/config/printer.cfg', '-l', '/home/Klipper/printer_data/logs/klippy.log', '-I', '/home/Klipper/printer_data/comms/klippy.serial', '-a', '/home/Klipper/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-205-g5f0d252b-dirty'
+Untracked files: klippy/extras/gcode_shell_command.py
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Start printer at Sun Sep 17 17:49:44 2023 (1694987384.4 571.2)
+Unable to open config file /home/Klipper/printer_data/config/printer.cfg
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/Klipper/printer_data/config/printer.cfg'
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/configfile.py", line 158, in _read_config_file
+    f = open(filename, 'r')
+FileNotFoundError: [Errno 2] No such file or directory: '/home/Klipper/printer_data/config/printer.cfg'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 279, in read_main_config
+    data = self._read_config_file(filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 164, in _read_config_file
+    raise error(msg)
+configparser.Error: Unable to open config file /home/Klipper/printer_data/config/printer.cfg
+webhooks client 1970439528: New connection
+webhooks client 1970439528: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970439528: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 17:58:47 2023 (1694987927.5 1114.4)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/misc-macros.cfg' does not exist
+webhooks client 1970439912: New connection
+webhooks client 1970439912: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970439912: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 17:59:22 2023 (1694987962.5 1149.3)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/PARKING.cfg' does not exist
+webhooks client 1970441616: New connection
+webhooks client 1970441616: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970441616: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 17:59:37 2023 (1694987977.2 1164.0)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/MECHANICAL_GANTRY_CALIBRATION.cfg' does not exist
+webhooks client 1970442000: New connection
+webhooks client 1970442000: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970442000: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 17:59:51 2023 (1694987991.0 1177.9)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/CALIBRATION.cfg' does not exist
+webhooks client 1970440584: New connection
+webhooks client 1970440584: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970440584: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 18:00:06 2023 (1694988006.9 1193.8)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/mainsail1.cfg' does not exist
+webhooks client 1970441424: New connection
+webhooks client 1970441424: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970441424: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 18:00:27 2023 (1694988027.2 1214.1)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/macros.cfg' does not exist
+webhooks client 1970439600: New connection
+webhooks client 1970439600: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970439600: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 18:00:43 2023 (1694988043.4 1230.3)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/ADXL_SHAPER.cfg' does not exist
+webhooks client 1970440512: New connection
+webhooks client 1970440512: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970440512: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 18:01:50 2023 (1694988110.2 1297.0)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/ADXL_SHAPER.cfg' does not exist
+webhooks client 1970441496: New connection
+webhooks client 1970441496: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970441496: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 18:02:17 2023 (1694988137.3 1324.2)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 233, in _resolve_include
+    self._parse_config(include_data, include_filename, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/./KAMP/Adaptive_Meshing.cfg' does not exist
+webhooks client 1970442216: New connection
+webhooks client 1970442216: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970442216: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 18:02:35 2023 (1694988155.8 1342.6)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 233, in _resolve_include
+    self._parse_config(include_data, include_filename, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/./KAMP/Adaptive_Meshing.cfg' does not exist
+webhooks client 1970439720: New connection
+webhooks client 1970439720: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970439720: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 18:04:04 2023 (1694988244.8 1431.6)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 229, in _resolve_include
+    raise error("Include file '%s' does not exist" % (include_glob,))
+configparser.Error: Include file '/home/Klipper/printer_data/config/config_backup.cfg' does not exist
+webhooks client 1970439312: New connection
+webhooks client 1970439312: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970439312: Disconnected
+Restarting printer
+Start printer at Sun Sep 17 18:04:29 2023 (1694988269.6 1456.5)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 233, in _resolve_include
+    self._parse_config(include_data, include_filename, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 260, in _parse_config
+    self._parse_config_buffer(buffer, filename, fileconfig)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 220, in _parse_config_buffer
+    fileconfig.readfp(sbuffer, filename)
+  File "/usr/lib/python3.9/configparser.py", line 763, in readfp
+    self.read_file(fp, source=filename)
+  File "/usr/lib/python3.9/configparser.py", line 718, in read_file
+    self._read(f, source)
+  File "/usr/lib/python3.9/configparser.py", line 1082, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: '/home/Klipper/printer_data/config/timelapse.cfg', line: 1
+'/home/klipper/moonraker-timelapse/klipper_macro/timelapse.cfg'
+webhooks client 1970440848: New connection
+webhooks client 1970440848: Client info {'program': 'Moonraker', 'version': 'v0.8.0-41-g348b7f5'}
+webhooks client 1970440848: Disconnected
+Starting Klippy...
+Args: ['/home/Klipper/klipper/klippy/klippy.py', '/home/Klipper/printer_data/config/printer.cfg', '-l', '/home/Klipper/printer_data/logs/klippy.log', '-I', '/home/Klipper/printer_data/comms/klippy.serial', '-a', '/home/Klipper/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-205-g5f0d252b-dirty'
+Untracked files: klippy/extras/gcode_shell_command.py
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Start printer at Sun Sep 17 18:05:44 2023 (1694988344.5 1531.3)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 233, in _resolve_include
+    self._parse_config(include_data, include_filename, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 260, in _parse_config
+    self._parse_config_buffer(buffer, filename, fileconfig)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 220, in _parse_config_buffer
+    fileconfig.readfp(sbuffer, filename)
+  File "/usr/lib/python3.9/configparser.py", line 763, in readfp
+    self.read_file(fp, source=filename)
+  File "/usr/lib/python3.9/configparser.py", line 718, in read_file
+    self._read(f, source)
+  File "/usr/lib/python3.9/configparser.py", line 1082, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: '/home/Klipper/printer_data/config/timelapse.cfg', line: 1
+'/home/klipper/moonraker-timelapse/klipper_macro/timelapse.cfg'
+Starting Klippy...
+Args: ['/home/Klipper/klipper/klippy/klippy.py', '/home/Klipper/printer_data/config/printer.cfg', '-l', '/home/Klipper/printer_data/logs/klippy.log', '-I', '/home/Klipper/printer_data/comms/klippy.serial', '-a', '/home/Klipper/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-205-g5f0d252b-dirty'
+Untracked files: klippy/extras/gcode_shell_command.py
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Start printer at Sun Sep 17 18:06:08 2023 (1694988368.4 1555.2)
+Config error
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 175, in _connect
+    self._read_config()
+  File "/home/Klipper/klipper/klippy/klippy.py", line 134, in _read_config
+    config = pconfig.read_main_config()
+  File "/home/Klipper/klipper/klippy/configfile.py", line 281, in read_main_config
+    regular_config = self._build_config_wrapper(regular_data, filename)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 268, in _build_config_wrapper
+    self._parse_config(data, filename, fileconfig, set())
+  File "/home/Klipper/klipper/klippy/configfile.py", line 256, in _parse_config
+    self._resolve_include(filename, include_spec, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 233, in _resolve_include
+    self._parse_config(include_data, include_filename, fileconfig,
+  File "/home/Klipper/klipper/klippy/configfile.py", line 260, in _parse_config
+    self._parse_config_buffer(buffer, filename, fileconfig)
+  File "/home/Klipper/klipper/klippy/configfile.py", line 220, in _parse_config_buffer
+    fileconfig.readfp(sbuffer, filename)
+  File "/usr/lib/python3.9/configparser.py", line 763, in readfp
+    self.read_file(fp, source=filename)
+  File "/usr/lib/python3.9/configparser.py", line 718, in read_file
+    self._read(f, source)
+  File "/usr/lib/python3.9/configparser.py", line 1082, in _read
+    raise MissingSectionHeaderError(fpname, lineno, line)
+configparser.MissingSectionHeaderError: File contains no section headers.
+file: '/home/Klipper/printer_data/config/timelapse.cfg', line: 1
+'/home/klipper/moonraker-timelapse/klipper_macro/timelapse.cfg'
+Starting Klippy...
+Args: ['/home/Klipper/klipper/klippy/klippy.py', '/home/Klipper/printer_data/config/printer.cfg', '-l', '/home/Klipper/printer_data/logs/klippy.log', '-I', '/home/Klipper/printer_data/comms/klippy.serial', '-a', '/home/Klipper/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-205-g5f0d252b-dirty'
+Untracked files: klippy/extras/gcode_shell_command.py
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Start printer at Sun Sep 17 18:06:15 2023 (1694988375.5 1562.4)
+===== Config file =====
+[force_move]
+enable_force_move = True
+
+[virtual_sdcard]
+path = /home/klipper/printer_data/gcodes
+
+[exclude_object]
+
+[pause_resume]
+
+[display_status]
+
+[delayed_gcode DISABLEFILAMENTSENSOR]
+initial_duration = 1
+gcode = 
+	SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
+
+[gcode_macro _globals]
+variable_filament_sensor_enabled = 0
+variable_beeping_enabled = 1
+variable_bed_temp_over = 10
+variable_pre_purge_prime_length = 1.40
+gcode = 
+	
+	SET_GCODE_VARIABLE MACRO=_globals VARIABLE=pre_purge_prime_length VALUE={ variable_pre_purge_prime_length }
+	SET_GCODE_VARIABLE MACRO=_globals VARIABLE=filament_sensor_enabled VALUE={ variable_filament_sensor_enabled }
+	SET_GCODE_VARIABLE MACRO=_globals VARIABLE=beeping_enabled VALUE={ variable_beeping_enabled }
+	SET_GCODE_VARIABLE MACRO=_globals VARIABLE=bed_temp_over VALUE={ variable_bed_temp_over }
+
+[gcode_macro CONDITIONAL_BEEP]
+gcode = 
+	
+	{% set i = params.I|default(1)|int %}
+	{% set dur = params.DUR|default(100)|int %}
+	{% set freq = params.FREQ|default(2000)|int %}
+	
+	{% set BEEPING_ENABLED=printer["gcode_macro _globals"].beeping_enabled|default(-1)|int %}
+	
+	{% if BEEPING_ENABLED == 1 %}
+	BEEP I={i} DUR={dur} FREQ={freq}
+	{% endif %}
+
+[gcode_macro ADJUST_FILAMENT_SENSOR_STATUS]
+gcode = 
+	
+	{% set NEWSTATUS = params.ENABLE|default(-1)|int %}
+	
+	{% set FILAMENT_SENSOR_ENABLED=printer["gcode_macro _globals"].filament_sensor_enabled|default(-1)|int %}
+	
+	{% if FILAMENT_SENSOR_ENABLED == 1 and NEWSTATUS != -1 %}
+	SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE={NEWSTATUS}
+	{% endif %}
+
+[gcode_macro M109]
+rename_existing = M99109
+gcode = 
+	
+	{% set s = params.S|float %}
+	
+	M104 {% for p in params %}{'%s%s' % (p, params[p])}{% endfor %}
+	{% if s != 0 %}
+	TEMPERATURE_WAIT SENSOR=extruder MINIMUM={s} MAXIMUM={s+1}
+	{% endif %}
+
+[gcode_macro M190]
+rename_existing = M99190
+gcode = 
+	
+	{% set s = params.S|float %}
+	
+	M140 {% for p in params %}{'%s%s' % (p, params[p])}{% endfor %}
+	{% if s != 0 %}
+	TEMPERATURE_WAIT SENSOR=heater_bed MINIMUM={s} MAXIMUM={s+1}
+	{% endif %}
+
+[gcode_macro PURGE_LINE]
+gcode = 
+	{% set PRE_PURGE_PRIME_LENGTH=printer["gcode_macro _globals"].pre_purge_prime_length|default(1.40)|float %}
+	ADJUST_FILAMENT_SENSOR_STATUS ENABLE=1
+	
+	
+	{% set extrudeAmount = 26.6 %}
+	{% set movementLength = 100.0 %}
+	{% set movementSpeed = 15 * 60 %}
+	{% set xStart = 0.5 %}
+	{% set yStart = 0.5 %}
+	
+	
+	{% set maxVelocity = printer.configfile.settings.printer.max_velocity|default(200)|int %}
+	{% set maxVelocityAdjusted =  (0.95 * maxVelocity * 60)|int  %}
+	
+	G92 E0.0
+	G90
+	G0 X{xStart} Y{yStart} F{maxVelocityAdjusted}
+	G1 Z0.4 F500.0
+	M83
+	G1 E{PRE_PURGE_PRIME_LENGTH} F500
+	G1 X{xStart + movementLength} E{extrudeAmount} F{movementSpeed}
+	
+	G92 E0.0
+	M82
+	G1 Z5.0
+
+[gcode_macro LOAD_FILAMENT]
+gcode = 
+	M83
+	G1 E30 F300
+	G1 E15 F150
+	M82
+
+[gcode_macro UNLOAD_FILAMENT]
+gcode = 
+	M83
+	G1 X125 Y50 Z80
+	G1 E10 F300
+	G1 E-10 F3000
+	G1 E-50 F1800
+	G1 E-10 F900
+	M82
+
+[gcode_macro M600]
+gcode = 
+	CONDITIONAL_BEEP i=1 dur=300
+	CONDITIONAL_BEEP i=1 dur=100
+	CONDITIONAL_BEEP i=1 dur=100
+	PAUSE
+
+[gcode_macro PAUSE]
+rename_existing = BASE_PAUSE
+gcode = 
+	
+	{% set z = params.Z|default(10)|int %}
+	
+	{% if printer['pause_resume'].is_paused|int == 0 %}
+	SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=zhop VALUE={z}
+	SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=etemp VALUE={printer['extruder'].target}
+	
+	ADJUST_FILAMENT_SENSOR_STATUS ENABLE=0
+	
+	SAVE_GCODE_STATE NAME=PAUSE
+	BASE_PAUSE
+	{% if (printer.gcode_move.position.z + z) < printer.toolhead.axis_maximum.z %}
+	G91
+	G1 Z{z} F900
+	{% else %}
+	{ action_respond_info("Pause zhop exceeds maximum Z height.") }
+	SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=zhop VALUE=0
+	{% endif %}
+	G90
+	G1 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_minimum.y+5} F6000
+	SAVE_GCODE_STATE NAME=PAUSEPARK
+	M104 S0
+	SET_IDLE_TIMEOUT TIMEOUT=43200
+	{% endif %}
+description = Pause the actual running print
+variable_restore_idle_timeout = 0
+
+[gcode_macro RESUME]
+rename_existing = BASE_RESUME
+variable_zhop = 0
+variable_etemp = 0
+gcode = 
+	
+	{% set e = params.E|default(2.5)|int %}
+	
+	{% if printer['pause_resume'].is_paused|int == 1 %}
+	ADJUST_FILAMENT_SENSOR_STATUS ENABLE=1
+	
+	SET_IDLE_TIMEOUT TIMEOUT={printer.configfile.settings.idle_timeout.timeout}
+	{% if etemp > 0 %}
+	M109 S{etemp|int}
+	{% endif %}
+	RESTORE_GCODE_STATE NAME=PAUSEPARK MOVE=1 MOVE_SPEED=100
+	G91
+	M83
+	{% if printer[printer.toolhead.extruder].temperature >= printer.configfile.settings.extruder.min_extrude_temp %}
+	G1 Z{zhop * -1} E{e} F900
+	{% else %}
+	G1 Z{zhop * -1} F900
+	{% endif %}
+	RESTORE_GCODE_STATE NAME=PAUSE MOVE=1 MOVE_SPEED=60
+	BASE_RESUME
+	{% endif %}
+description = Resume the actual running print
+variable_last_extruder_temp = 0
+
+[gcode_macro _CG28]
+gcode = 
+	{% if "xyz" not in printer.toolhead.homed_axes %}
+	G28
+	{% endif %}
+
+[gcode_macro BEEP]
+description = BEEP I=3 DUR=200 FREQ=2000: Beep 3 times, for 200ms each, at 2kHz frequency.
+gcode = 
+	
+	{% set i = params.I|default(1)|int %}
+	{% set dur = params.DUR|default(100)|int %}
+	{% set freq = params.FREQ|default(2000)|int %}
+	
+	{% for iteration in range(i|int) %}
+	SET_PIN PIN=beeper VALUE=0.8 CYCLE_TIME={ 1.0/freq if freq > 0 else 1 }
+	G4 P{dur}
+	SET_PIN PIN=beeper VALUE=0
+	G4 P{dur}
+	{% endfor %}
+
+[gcode_macro PARKFRONT]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKFRONT
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_minimum.y+5} Z{printer.toolhead.axis_maximum.z/2} F6000
+	RESTORE_GCODE_STATE NAME=PARKFRONT
+
+[gcode_macro PARKFRONTLOW]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKFRONT
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_minimum.y+5} Z20 F6000
+	RESTORE_GCODE_STATE NAME=PARKFRONT
+
+[gcode_macro PARKREAR]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKREAR
+	G90
+	G0 X{printer.toolhead.axis_minimum.x+10} Y{printer.toolhead.axis_maximum.y-10} Z{printer.toolhead.axis_maximum.z-50} F6000
+	RESTORE_GCODE_STATE NAME=PARKREAR
+
+[gcode_macro PARKREARCENTER]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKREARCENTER
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_maximum.y-10} Z{printer.toolhead.axis_maximum.z-50} F6000
+	RESTORE_GCODE_STATE NAME=PARKREARCENTER
+
+[gcode_macro PARKCENTER]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKCENTER
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_maximum.y/2} Z{printer.toolhead.axis_maximum.z/2} F6000
+	RESTORE_GCODE_STATE NAME=PARKCENTER
+
+[gcode_macro PARKBED]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKBED
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_maximum.y/2} Z15 F6000
+	RESTORE_GCODE_STATE NAME=PARKBED
+
+[gcode_macro PARKBED_MID]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKBED
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_maximum.y/2} Z50 F6000
+	RESTORE_GCODE_STATE NAME=PARKBED
+
+[gcode_macro MECHANICAL_GANTRY_CALIBRATION]
+gcode = 
+	
+	{% set my_current = params.CURRENT|default(0.20)|float %}
+	
+	{% set oldcurrent = printer.configfile.settings["tmc2209 stepper_z"].run_current %}
+	{% set oldhold = printer.configfile.settings["tmc2209 stepper_z"].hold_current %}
+	{% set x_max = printer.toolhead.axis_maximum.x %}
+	{% set y_max = printer.toolhead.axis_maximum.y %}
+	{% set z_max = printer.toolhead.axis_maximum.z %}
+	{% set fast_move_z = printer.configfile.settings["printer"].max_z_velocity %}
+	{% set fast_move = printer.configfile.settings["printer"].max_velocity %}
+	M117 {printer.homed_axes}
+	{% if printer.homed_axes != 'xyz' %}
+	G28
+	{% endif %}
+	G90
+	G0 X{x_max / 2} Y{y_max / 2} F{fast_move * 30 }
+	
+	G0 Z{z_max -5} F{fast_move_z * 60 }
+	
+	SET_TMC_CURRENT STEPPER=stepper_z CURRENT={my_current}
+	
+	{% if printer.configfile.settings["stepper_z1"] %}
+	SET_TMC_CURRENT STEPPER=stepper_z1 CURRENT={my_current}
+	{% endif %}
+	
+	BEEP I=1
+	G4 P200
+	
+	SET_KINEMATIC_POSITION Z={z_max - 25}
+	
+	G1 Z{z_max} F{6 * 60}
+	BEEP I=2
+	G4 P10000
+	G1 Z{z_max -6} F{6 * 60}
+	BEEP I=3
+	G4 P200
+	
+	SET_TMC_CURRENT STEPPER=stepper_z CURRENT={oldcurrent} HOLDCURRENT={oldhold}
+	
+	{% if printer.configfile.settings["stepper_z1"] %}
+	SET_TMC_CURRENT STEPPER=stepper_z1 CURRENT={oldcurrent} HOLDCURRENT={oldhold}
+	{% endif %}
+	
+	G1 Z{z_max -30} F{6 * 60}
+	
+	G4 P200
+	G28 Z
+
+[gcode_macro G34]
+gcode = 
+	MECHANICAL_GANTRY_CALIBRATION
+
+[menu __main __setup __calib __mech_gantry_calibrate]
+type = command
+enable = {not printer.idle_timeout.state == "Printing"}
+name = G34 Gantry Level
+gcode = 
+	G34
+
+[gcode_macro PID_TEST_BED]
+gcode = 
+	
+	{% set TARGETTEMP = params.TEMP|default(70)|int %}
+	
+	{% set max_x = printer.configfile.config["stepper_x"]["position_max"]|float %}
+	{% set max_y = printer.configfile.config["stepper_y"]["position_max"]|float %}
+	G28
+	G90
+	G1 X{max_x/2} Y{max_y/2} Z40 F6000
+	PID_CALIBRATE HEATER=heater_bed TARGET={TARGETTEMP}
+
+[gcode_macro PID_TEST_HOTEND]
+gcode = 
+	
+	{% set TARGETTEMP = params.TEMP|default(245)|int %}
+	
+	{% set max_x = printer.configfile.config["stepper_x"]["position_max"]|float %}
+	{% set max_y = printer.configfile.config["stepper_y"]["position_max"]|float %}
+	G28
+	G90
+	G1 X{max_x/2} Y{max_y/2} Z10 F6000
+	M106 S64
+	PID_CALIBRATE HEATER=extruder TARGET={TARGETTEMP}
+
+[gcode_macro PID_TEST_ALL]
+gcode = 
+	PID_TEST_BED
+	PID_TEST_HOTEND
+	SAVE_CONFIG
+
+[gcode_macro DO_PROBE_CALIBRATE]
+gcode = 
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=60
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET=180
+	TEMPERATURE_WAIT SENSOR=heater_bed MINIMUM=60
+	TEMPERATURE_WAIT SENSOR=extruder MINIMUM=180
+	G28
+	PROBE_CALIBRATE
+
+[gcode_macro DO_CREATE_MESH]
+gcode = 
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=60
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET=180
+	TEMPERATURE_WAIT SENSOR=heater_bed MINIMUM=60
+	TEMPERATURE_WAIT SENSOR=extruder MINIMUM=180
+	G28
+	_BED_MESH_CALIBRATE
+
+[gcode_macro CANCEL_PRINT]
+description = Cancel the actual running print
+rename_existing = CANCEL_PRINT_BASE
+gcode = 
+	
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set allow_park = client.park_at_cancel|default(false)|lower == 'true' %}
+	{% set retract = client.cancel_retract|default(5.0)|abs %}
+	
+	{% set park_x = "" if (client.park_at_cancel_x|default(none) is none)
+	else "X=" ~ client.park_at_cancel_x %}
+	{% set park_y = "" if (client.park_at_cancel_y|default(none) is none)
+	else "Y=" ~ client.park_at_cancel_y %}
+	{% set custom_park = park_x|length > 0 or park_y|length > 0 %}
+	
+	
+	{% if printer['gcode_macro PAUSE'].restore_idle_timeout > 0 %}
+	SET_IDLE_TIMEOUT TIMEOUT={printer['gcode_macro PAUSE'].restore_idle_timeout}
+	{% endif %}
+	{% if (custom_park or not printer.pause_resume.is_paused) and allow_park %} _TOOLHEAD_PARK_PAUSE_CANCEL {park_x} {park_y} {% endif %}
+	_CLIENT_RETRACT LENGTH={retract}
+	TURN_OFF_HEATERS
+	M106 S0
+	
+	SET_PAUSE_NEXT_LAYER ENABLE=0
+	SET_PAUSE_AT_LAYER ENABLE=0 LAYER=0
+	CANCEL_PRINT_BASE
+
+[gcode_macro SET_PAUSE_NEXT_LAYER]
+description = Enable a pause if the next layer is reached
+gcode = 
+	{% set pause_next_layer = printer['gcode_macro SET_PRINT_STATS_INFO'].pause_next_layer %}
+	{% set ENABLE = params.ENABLE|default(1)|int != 0 %}
+	{% set MACRO = params.MACRO|default(pause_next_layer.call, True) %}
+	SET_GCODE_VARIABLE MACRO=SET_PRINT_STATS_INFO VARIABLE=pause_next_layer VALUE="{{ 'enable': ENABLE, 'call': MACRO }}"
+
+[gcode_macro SET_PAUSE_AT_LAYER]
+description = Enable/disable a pause if a given layer number is reached
+gcode = 
+	{% set pause_at_layer = printer['gcode_macro SET_PRINT_STATS_INFO'].pause_at_layer %}
+	{% set ENABLE = params.ENABLE|int != 0 if params.ENABLE is defined
+	else params.LAYER is defined %}
+	{% set LAYER = params.LAYER|default(pause_at_layer.layer)|int %}
+	{% set MACRO = params.MACRO|default(pause_at_layer.call, True) %}
+	SET_GCODE_VARIABLE MACRO=SET_PRINT_STATS_INFO VARIABLE=pause_at_layer VALUE="{{ 'enable': ENABLE, 'layer': LAYER, 'call': MACRO }}"
+
+[gcode_macro SET_PRINT_STATS_INFO]
+rename_existing = SET_PRINT_STATS_INFO_BASE
+description = Overwrite, to get pause_next_layer and pause_at_layer feature
+variable_pause_next_layer = { 'enable': False, 'call': "PAUSE" }
+variable_pause_at_layer = { 'enable': False, 'layer': 0, 'call': "PAUSE" }
+gcode = 
+	{% if pause_next_layer.enable %}
+	{action_respond_info("%s, forced by pause_next_layer" % pause_next_layer.call)}
+	{pause_next_layer.call}
+	SET_PAUSE_NEXT_LAYER ENABLE=0
+	{% elif pause_at_layer.enable and params.CURRENT_LAYER is defined and params.CURRENT_LAYER|int == pause_at_layer.layer %}
+	{action_respond_info("%s, forced by pause_at_layer [%d]" % (pause_at_layer.call, pause_at_layer.layer))}
+	{pause_at_layer.call}
+	SET_PAUSE_AT_LAYER ENABLE=0
+	{% endif %}
+	SET_PRINT_STATS_INFO_BASE {rawparams}
+
+[gcode_macro _TOOLHEAD_PARK_PAUSE_CANCEL]
+description = Helper: park toolhead used in PAUSE and CANCEL_PRINT
+gcode = 
+	
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set velocity = printer.configfile.settings.pause_resume.recover_velocity %}
+	{% set use_custom     = client.use_custom_pos|default(false)|lower == 'true' %}
+	{% set custom_park_x  = client.custom_park_x|default(0.0) %}
+	{% set custom_park_y  = client.custom_park_y|default(0.0) %}
+	{% set park_dz        = client.custom_park_dz|default(2.0)|abs %}
+	{% set sp_hop         = client.speed_hop|default(15) * 60 %}
+	{% set sp_move        = client.speed_move|default(velocity) * 60 %}
+	
+	{% set origin    = printer.gcode_move.homing_origin %}
+	{% set act       = printer.gcode_move.gcode_position %}
+	{% set max       = printer.toolhead.axis_maximum %}
+	{% set cone      = printer.toolhead.cone_start_z|default(max.z) %}
+	{% set round_bed = True if printer.configfile.settings.printer.kinematics is in ['delta','polar','rotary_delta','winch']
+	else False %}
+	
+	{% set z_min = params.Z_MIN|default(0)|float %}
+	{% set z_park = [[(act.z + park_dz), z_min]|max, (max.z - origin.z)]|min %}
+	{% set x_park = params.X       if params.X is defined
+	else custom_park_x  if use_custom
+	else 0.0            if round_bed
+	else (max.x - 5.0) %}
+	{% set y_park = params.Y       if params.Y is defined
+	else custom_park_y  if use_custom
+	else (max.y - 5.0)  if round_bed and z_park < cone
+	else 0.0            if round_bed
+	else (max.y - 5.0) %}
+	
+	_CLIENT_RETRACT
+	{% if "xyz" in printer.toolhead.homed_axes %}
+	G90
+	G1 Z{z_park} F{sp_hop}
+	G1 X{x_park} Y{y_park} F{sp_move}
+	{% if not printer.gcode_move.absolute_coordinates %} G91 {% endif %}
+	{% else %}
+	{action_respond_info("Printer not homed")}
+	{% endif %}
+
+[gcode_macro _CLIENT_EXTRUDE]
+description = Extrudes, if the extruder is hot enough
+gcode = 
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set use_fw_retract = (client.use_fw_retract|default(false)|lower == 'true') and (printer.firmware_retraction is defined) %}
+	{% set length = params.LENGTH|default(client.unretract)|default(1.0)|float %}
+	{% set speed = params.SPEED|default(client.speed_unretract)|default(35) %}
+	{% set absolute_extrude = printer.gcode_move.absolute_extrude %}
+	
+	{% if printer.extruder.can_extrude %}
+	{% if use_fw_retract %}
+	{% if length < 0 %}
+	G10
+	{% else %}
+	G11
+	{% endif %}
+	{% else %}
+	M83
+	G1 E{length} F{(speed|float|abs) * 60}
+	{% if absolute_extrude %}
+	M82
+	{% endif %}
+	{% endif %}
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+
+[gcode_macro _CLIENT_RETRACT]
+description = Retracts, if the extruder is hot enough
+gcode = 
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set length = params.LENGTH|default(client.retract)|default(1.0)|float %}
+	{% set speed = params.SPEED|default(client.speed_retract)|default(35) %}
+	
+	_CLIENT_EXTRUDE LENGTH=-{length|float|abs} SPEED={speed|float|abs}
+
+[gcode_macro PRINT_END]
+gcode = 
+	ADJUST_FILAMENT_SENSOR_STATUS ENABLE=0
+	CONDITIONAL_BEEP I=2 DUR=30 FREQ=8500
+	{% set PRE_PURGE_PRIME_LENGTH=printer["gcode_macro _globals"].pre_purge_prime_length|default(1.40)|float %}
+	
+	M400
+	G92 E0
+	G1 E-{PRE_PURGE_PRIME_LENGTH} F400
+	G91
+	
+	
+	{% set zVelocity = printer.configfile.settings.printer.max_z_velocity|default(15)|int %}
+	{% set maxVelocity = printer.configfile.settings.printer.max_velocity|default(200)|int %}
+	{% set zVelocityAdjusted =  (0.95 * zVelocity * 60)|int  %}
+	{% set maxVelocityAdjusted =  (0.95 * maxVelocity * 60)|int  %}
+	
+	
+	{% set max_x = printer.configfile.config["stepper_x"]["position_max"]|float %}
+	{% set max_y = printer.configfile.config["stepper_y"]["position_max"]|float %}
+	{% set max_z = printer.configfile.config["stepper_z"]["position_max"]|float %}
+	
+	
+	{% if printer.toolhead.position.x < (max_x - 20) %}
+	{% set x_safe = 20.0 %}
+	{% else %}
+	{% set x_safe = -20.0 %}
+	{% endif %}
+	
+	{% if printer.toolhead.position.y < (max_y - 20) %}
+	{% set y_safe = 20.0 %}
+	{% else %}
+	{% set y_safe = -20.0 %}
+	{% endif %}
+	
+	{% set lift_height = 25.0 %}
+	{% if printer.toolhead.position.z < (max_z - lift_height) %}
+	{% set z_safe = lift_height %}
+	{% else %}
+	{% set z_safe = max_z - printer.toolhead.position.z %}
+	{% endif %}
+	
+	G0 Z{z_safe} F{zVelocityAdjusted}
+	G0 X{x_safe} Y{y_safe} F{maxVelocityAdjusted}
+	TURN_OFF_HEATERS
+	M107
+	G90
+	G0 X60 Y{max_y} F3600
+	SET_SKEW CLEAR=1
+
+[gcode_macro DISABLE_STEPPERS]
+description = Disables the printers stepper motors
+gcode = 
+	M84 X Y E
+
+[gcode_macro Save_Settings]
+description = Save Settings
+gcode = 
+	SAVE_CONFIG
+
+[gcode_macro MESH_CHECK]
+description = Checks if a mesh exists to determine whether to create a new one
+gcode = 
+	{% if printer.bed_mesh.profiles['default'] is defined %}
+	BED_MESH_PROFILE LOAD='default'
+	{% else %}
+	BED_MESH_CALIBRATE
+	{% endif %}
+
+[gcode_macro GET_TIMELAPSE_SETUP]
+description = Print the Timelapse setup
+gcode = 
+	{% set tl = printer['gcode_macro TIMELAPSE_TAKE_FRAME'] %}
+	{% set output_txt = ["Timelapse Setup:"] %}
+	{% set _dummy = output_txt.append("enable: %s" % tl.enable) %}
+	{% set _dummy = output_txt.append("park: %s" % tl.park.enable) %}
+	{% if tl.park.enable %}
+	{% set _dummy = output_txt.append("park position: %s time: %s s" % (tl.park.pos, tl.park.time)) %}
+	{% set _dummy = output_txt.append("park cord x:%s y:%s dz:%s" % (tl.park.coord.x, tl.park.coord.y, tl.park.coord.dz)) %}
+	{% set _dummy = output_txt.append("travel speed: %s mm/s" % tl.speed.travel) %}
+	{% endif %}
+	{% set _dummy = output_txt.append("fw_retract: %s" % tl.extruder.fw_retract) %}
+	{% if not tl.extruder.fw_retract %}
+	{% set _dummy = output_txt.append("retract: %s mm speed: %s mm/s" % (tl.extruder.retract, tl.speed.retract)) %}
+	{% set _dummy = output_txt.append("extrude: %s mm speed: %s mm/s" % (tl.extruder.extrude, tl.speed.extrude)) %}
+	{% endif %}
+	{% set _dummy = output_txt.append("verbose: %s" % tl.verbose) %}
+	{action_respond_info(output_txt|join("\n"))}
+
+[gcode_macro _SET_TIMELAPSE_SETUP]
+description = Set user parameters for timelapse
+gcode = 
+	{% set tl = printer['gcode_macro TIMELAPSE_TAKE_FRAME'] %}
+	
+	{% set min = printer.toolhead.axis_minimum %}
+	{% set max = printer.toolhead.axis_maximum %}
+	{% set round_bed = True if printer.configfile.settings.printer.kinematics is in ['delta','polar','rotary_delta','winch']
+	else False %}
+	{% set park = {'min'   : {'x': (min.x / 1.42)|round(3) if round_bed else min.x|round(3),
+	'y': (min.y / 1.42)|round(3) if round_bed else min.y|round(3)},
+	'max'   : {'x': (max.x / 1.42)|round(3) if round_bed else max.x|round(3),
+	'y': (max.y / 1.42)|round(3) if round_bed else max.y|round(3)},
+	'center': {'x': (max.x-(max.x-min.x)/2)|round(3),
+	'y': (max.y-(max.y-min.y)/2)|round(3)}} %}
+	
+	{% if params.ENABLE %}
+	{% if params.ENABLE|lower is in ['true', 'false'] %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=enable VALUE={True if params.ENABLE|lower == 'true' else False}
+	{% else %}
+	{action_raise_error("ENABLE=%s not supported. Allowed values are [True, False]" % params.ENABLE|capitalize)}
+	{% endif %}
+	{% endif %}
+	{% if params.VERBOSE %}
+	{% if params.VERBOSE|lower is in ['true', 'false'] %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=verbose VALUE={True if params.VERBOSE|lower == 'true' else False}
+	{% else %}
+	{action_raise_error("VERBOSE=%s not supported. Allowed values are [True, False]" % params.VERBOSE|capitalize)}
+	{% endif %}
+	{% endif %}
+	{% if params.CUSTOM_POS_X %}
+	{% if params.CUSTOM_POS_X|float >= min.x and params.CUSTOM_POS_X|float <= max.x %}
+	{% set _dummy = tl.park.custom.update({'x':params.CUSTOM_POS_X|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("CUSTOM_POS_X=%s must be within [%s - %s]" % (params.CUSTOM_POS_X, min.x, max.x))}
+	{% endif %}
+	{% endif %}
+	{% if params.CUSTOM_POS_Y %}
+	{% if params.CUSTOM_POS_Y|float >= min.y and params.CUSTOM_POS_Y|float <= max.y %}
+	{% set _dummy = tl.park.custom.update({'y':params.CUSTOM_POS_Y|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("CUSTOM_POS_Y=%s must be within [%s - %s]" % (params.CUSTOM_POS_Y, min.y, max.y))}
+	{% endif %}
+	{% endif %}
+	{% if params.CUSTOM_POS_DZ %}
+	{% if params.CUSTOM_POS_DZ|float >= min.z and params.CUSTOM_POS_DZ|float <= max.z %}
+	{% set _dummy = tl.park.custom.update({'dz':params.CUSTOM_POS_DZ|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("CUSTOM_POS_DZ=%s must be within [%s - %s]" % (params.CUSTOM_POS_DZ, min.z, max.z))}
+	{% endif %}
+	{% endif %}
+	{% if params.PARK_ENABLE %}
+	{% if params.PARK_ENABLE|lower is in ['true', 'false'] %}
+	{% set _dummy = tl.park.update({'enable':True if params.PARK_ENABLE|lower == 'true' else False}) %}
+	{% else %}
+	{action_raise_error("PARK_ENABLE=%s not supported. Allowed values are [True, False]" % params.PARK_ENABLE|capitalize)}
+	{% endif %}
+	{% endif %}
+	{% if params.PARK_POS %}
+	{% if params.PARK_POS|lower is in ['center','front_left','front_right','back_left','back_right','custom','x_only','y_only'] %}
+	{% set dic = {'center'      : {'x': park.center.x   , 'y': park.center.y   , 'dz': 1                },
+	'front_left'  : {'x': park.min.x      , 'y': park.min.y      , 'dz': 0                },
+	'front_right' : {'x': park.max.x      , 'y': park.min.y      , 'dz': 0                },
+	'back_left'   : {'x': park.min.x      , 'y': park.max.y      , 'dz': 0                },
+	'back_right'  : {'x': park.max.x      , 'y': park.max.y      , 'dz': 0                },
+	'custom'      : {'x': tl.park.custom.x, 'y': tl.park.custom.y, 'dz': tl.park.custom.dz},
+	'x_only'      : {'x': tl.park.custom.x, 'y': 'none'          , 'dz': tl.park.custom.dz},
+	'y_only'      : {'x': 'none'          , 'y': tl.park.custom.y, 'dz': tl.park.custom.dz}} %}
+	{% set _dummy = tl.park.update({'pos':params.PARK_POS|lower}) %}
+	{% set _dummy = tl.park.update({'coord':dic[tl.park.pos]}) %}
+	{% else %}
+	{action_raise_error("PARK_POS=%s not supported. Allowed values are [CENTER, FRONT_LEFT, FRONT_RIGHT, BACK_LEFT, BACK_RIGHT, CUSTOM, X_ONLY, Y_ONLY]"
+	% params.PARK_POS|upper)}
+	{% endif %}
+	{% endif %}
+	{% if params.PARK_TIME %}
+	{% if params.PARK_TIME|float >= 0.0 %}
+	{% set _dummy = tl.park.update({'time':params.PARK_TIME|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("PARK_TIME=%s must be a positive number" % params.PARK_TIME)}
+	{% endif %}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=park VALUE="{tl.park}"
+	{% if params.TRAVEL_SPEED %}
+	{% if params.TRAVEL_SPEED|float > 0.0 %}
+	{% set _dummy = tl.speed.update({'travel':params.TRAVEL_SPEED|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("TRAVEL_SPEED=%s must be larger than 0" % params.TRAVEL_SPEED)}
+	{% endif %}
+	{% endif %}
+	{% if params.RETRACT_SPEED %}
+	{% if params.RETRACT_SPEED|float > 0.0 %}
+	{% set _dummy = tl.speed.update({'retract':params.RETRACT_SPEED|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("RETRACT_SPEED=%s must be larger than 0" % params.RETRACT_SPEED)}
+	{% endif %}
+	{% endif %}
+	{% if params.EXTRUDE_SPEED %}
+	{% if params.EXTRUDE_SPEED|float > 0.0 %}
+	{% set _dummy = tl.speed.update({'extrude':params.EXTRUDE_SPEED|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("EXTRUDE_SPEED=%s must be larger than 0" % params.EXTRUDE_SPEED)}
+	{% endif %}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=speed VALUE="{tl.speed}"
+	{% if params.EXTRUDE_DISTANCE %}
+	{% if params.EXTRUDE_DISTANCE|float >= 0.0 %}
+	{% set _dummy = tl.extruder.update({'extrude':params.EXTRUDE_DISTANCE|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("EXTRUDE_DISTANCE=%s must be specified as positiv number" % params.EXTRUDE_DISTANCE)}
+	{% endif %}
+	{% endif %}
+	{% if params.RETRACT_DISTANCE %}
+	{% if params.RETRACT_DISTANCE|float >= 0.0 %}
+	{% set _dummy = tl.extruder.update({'retract':params.RETRACT_DISTANCE|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("RETRACT_DISTANCE=%s must be specified as positiv number" % params.RETRACT_DISTANCE)}
+	{% endif %}
+	{% endif %}
+	{% if params.FW_RETRACT %}
+	{% if params.FW_RETRACT|lower is in ['true', 'false'] %}
+	{% if 'firmware_retraction' in printer.configfile.settings %}
+	{% set _dummy = tl.extruder.update({'fw_retract': True if params.FW_RETRACT|lower == 'true' else False}) %}
+	{% else %}
+	{% set _dummy = tl.extruder.update({'fw_retract':False}) %}
+	{% if params.FW_RETRACT|capitalize == 'True' %}
+	{action_raise_error("[firmware_retraction] not defined in printer.cfg. Can not enable fw_retract")}
+	{% endif %}
+	{% endif %}
+	{% else %}
+	{action_raise_error("FW_RETRACT=%s not supported. Allowed values are [True, False]" % params.FW_RETRACT|capitalize)}
+	{% endif %}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=extruder VALUE="{tl.extruder}"
+	{% if printer.configfile.settings['gcode_macro pause'] is defined %}
+	{% set _dummy = tl.macro.update({'pause': printer.configfile.settings['gcode_macro pause'].rename_existing}) %}
+	{% endif %}
+	{% if printer.configfile.settings['gcode_macro resume'] is defined %}
+	{% set _dummy = tl.macro.update({'resume': printer.configfile.settings['gcode_macro resume'].rename_existing}) %}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=macro VALUE="{tl.macro}"
+
+[gcode_macro TIMELAPSE_TAKE_FRAME]
+description = Take Timelapse shoot
+variable_enable = False
+variable_takingframe = False
+variable_park = {'enable': False,
+	'pos'   : 'center',
+	'time'  : 0.1,
+	'custom': {'x': 0, 'y': 0, 'dz': 0},
+	'coord' : {'x': 0, 'y': 0, 'dz': 0}}
+variable_extruder = {'fw_retract': False,
+	'retract': 1.0,
+	'extrude': 1.0}
+variable_speed = {'travel': 100,
+	'retract': 15,
+	'extrude': 15}
+variable_verbose = True
+variable_restore = {'absolute': {'coordinates': True, 'extrude': True}, 'speed': 1500, 'e':0, 'factor': {'speed': 1.0, 'extrude': 1.0}}
+variable_macro = {'pause': 'PAUSE', 'resume': 'RESUME'}
+variable_is_paused = False
+gcode = 
+	{% set hyperlapse = True if params.HYPERLAPSE and params.HYPERLAPSE|lower =='true' else False %}
+	{% if enable %}
+	{% if (hyperlapse and printer['gcode_macro HYPERLAPSE'].run) or
+	(not hyperlapse and not printer['gcode_macro HYPERLAPSE'].run) %}
+	{% if park.enable %}
+	{% set pos = {'x': 'X' + park.coord.x|string if park.pos != 'y_only' else '',
+	'y': 'Y' + park.coord.y|string if park.pos != 'x_only' else '',
+	'z': 'Z'+ [printer.gcode_move.gcode_position.z + park.coord.dz, printer.toolhead.axis_maximum.z]|min|string} %}
+	{% set restore = {'absolute': {'coordinates': printer.gcode_move.absolute_coordinates,
+	'extrude'    : printer.gcode_move.absolute_extrude},
+	'speed'   : printer.gcode_move.speed,
+	'e'       : printer.gcode_move.gcode_position.e,
+	'factor'  : {'speed'  : printer.gcode_move.speed_factor,
+	'extrude': printer.gcode_move.extrude_factor}} %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=restore VALUE="{restore}"
+	{% if not printer[printer.toolhead.extruder].can_extrude %}
+	{% if verbose %}{action_respond_info("Timelapse: Warning, minimum extruder temperature not reached!")}{% endif %}
+	{% else %}
+	{% if extruder.fw_retract %}
+	G10
+	{% else %}
+	M83
+	G0 E-{extruder.retract} F{speed.retract * 60}
+	{% endif %}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=is_paused VALUE=True
+	{macro.pause}
+	SET_GCODE_OFFSET X=0 Y=0
+	G90
+	{% if "xyz" not in printer.toolhead.homed_axes %}
+	{% if verbose %}{action_respond_info("Timelapse: Warning, axis not homed yet!")}{% endif %}
+	{% else %}
+	G0 {pos.x} {pos.y} {pos.z} F{speed.travel * 60}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=takingframe VALUE=True
+	UPDATE_DELAYED_GCODE ID=_WAIT_TIMELAPSE_TAKE_FRAME DURATION=0.5
+	M400
+	{% endif %}
+	_TIMELAPSE_NEW_FRAME HYPERLAPSE={hyperlapse}
+	{% endif %}
+	{% else %}
+	{% if verbose %}{action_respond_info("Timelapse: disabled, take frame ignored")}{% endif %}
+	{% endif %}
+
+[gcode_macro _TIMELAPSE_NEW_FRAME]
+description = action call for timelapse shoot. must be a seperate macro
+gcode = 
+	{action_call_remote_method("timelapse_newframe",
+	macropark=printer['gcode_macro TIMELAPSE_TAKE_FRAME'].park,
+	hyperlapse=params.HYPERLAPSE)}
+
+[delayed_gcode _WAIT_TIMELAPSE_TAKE_FRAME]
+gcode = 
+	{% set tl = printer['gcode_macro TIMELAPSE_TAKE_FRAME'] %}
+	{% set factor = {'speed': printer.gcode_move.speed_factor, 'extrude': printer.gcode_move.extrude_factor} %}
+	{% if tl.takingframe %}
+	UPDATE_DELAYED_GCODE ID=_WAIT_TIMELAPSE_TAKE_FRAME DURATION=0.5
+	{% else %}
+	{tl.macro.resume} VELOCITY={tl.speed.travel}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=is_paused VALUE=False
+	{% if not printer[printer.toolhead.extruder].can_extrude %}
+	{action_respond_info("Timelapse: Warning minimum extruder temperature not reached!")}
+	{% else %}
+	{% if tl.extruder.fw_retract %}
+	G11
+	{% else %}
+	G0 E{tl.extruder.extrude} F{tl.speed.extrude * 60}
+	G0 F{tl.restore.speed}
+	{% if tl.restore.absolute.extrude %}
+	M82
+	G92 E{tl.restore.e}
+	{% endif %}
+	{% endif %}
+	{% endif %}
+	{% if tl.restore.factor.speed   != factor.speed   %} M220 S{(factor.speed*100)|round(0)}   {% endif %}
+	{% if tl.restore.factor.extrude != factor.extrude %} M221 S{(factor.extrude*100)|round(0)} {% endif %}
+	{% if not tl.restore.absolute.coordinates %} G91 {% endif %}
+	{% endif %}
+
+[gcode_macro HYPERLAPSE]
+description = Start/Stop a hyperlapse recording
+variable_cycle = 0
+variable_run = False
+gcode = 
+	{% set cycle = params.CYCLE|default(30)|int %}
+	{% if params.ACTION and params.ACTION|lower == 'start' %}
+	{action_respond_info("Hyperlapse: frames started (Cycle %d sec)" % cycle)}
+	SET_GCODE_VARIABLE MACRO=HYPERLAPSE VARIABLE=run VALUE=True
+	SET_GCODE_VARIABLE MACRO=HYPERLAPSE VARIABLE=cycle VALUE={cycle}
+	UPDATE_DELAYED_GCODE ID=_HYPERLAPSE_LOOP DURATION={cycle}
+	TIMELAPSE_TAKE_FRAME HYPERLAPSE=True
+	{% elif params.ACTION and params.ACTION|lower == 'stop' %}
+	{% if run %}{action_respond_info("Hyperlapse: frames stopped")}{% endif %}
+	SET_GCODE_VARIABLE MACRO=HYPERLAPSE VARIABLE=run VALUE=False
+	UPDATE_DELAYED_GCODE ID=_HYPERLAPSE_LOOP DURATION=0
+	{% else %}
+	{action_raise_error("Hyperlapse: No valid input parameter
+	Use:
+	- HYPERLAPSE ACTION=START [CYCLE=time]
+	- HYPERLAPSE ACTION=STOP")}
+	{% endif %}
+
+[delayed_gcode _HYPERLAPSE_LOOP]
+gcode = 
+	UPDATE_DELAYED_GCODE ID=_HYPERLAPSE_LOOP DURATION={printer["gcode_macro HYPERLAPSE"].cycle}
+	TIMELAPSE_TAKE_FRAME HYPERLAPSE=True
+
+[gcode_macro TIMELAPSE_RENDER]
+description = Render Timelapse video and wait for the result
+variable_render = False
+variable_run_identifier = 0
+gcode = 
+	{action_respond_info("Timelapse: Rendering started")}
+	{action_call_remote_method("timelapse_render", byrendermacro="True")}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_RENDER VARIABLE=render VALUE=True
+	{printer.configfile.settings['gcode_macro pause'].rename_existing}
+	UPDATE_DELAYED_GCODE ID=_WAIT_TIMELAPSE_RENDER DURATION=0.5
+
+[delayed_gcode _WAIT_TIMELAPSE_RENDER]
+gcode = 
+	{% set ri = printer['gcode_macro TIMELAPSE_RENDER'].run_identifier % 4 %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_RENDER VARIABLE=run_identifier VALUE={ri + 1}
+	{% if printer['gcode_macro TIMELAPSE_RENDER'].render %}
+	M117 Rendering {['-','\\','|','/'][ri]}
+	UPDATE_DELAYED_GCODE ID=_WAIT_TIMELAPSE_RENDER DURATION=0.5
+	{% else %}
+	{action_respond_info("Timelapse: Rendering finished")}
+	M117
+	{printer.configfile.settings['gcode_macro resume'].rename_existing}
+	{% endif %}
+
+[gcode_macro TEST_STREAM_DELAY]
+description = Helper macro to find stream and park delay
+gcode = 
+	{% set min = printer.toolhead.axis_minimum %}
+	{% set max = printer.toolhead.axis_maximum %}
+	{% set act = printer.toolhead.position %}
+	{% set tl = printer['gcode_macro TIMELAPSE_TAKE_FRAME'] %}
+	{% if act.z > 5.0 %}
+	G0 X{min.x + 5.0} F{tl.speed.travel|int * 60}
+	G0 X{(max.x-min.x)/2}
+	G4 P{tl.park.time|float * 1000}
+	_TIMELAPSE_NEW_FRAME HYPERLAPSE=FALSE
+	G0 X{max.x - 5.0}
+	{% else %}
+	{action_raise_error("Toolhead z %.3f to low. Please place head above z = 5.0" % act.z)}
+	{% endif %}
+
+[gcode_macro ADXL_SHAPE_ALL]
+description = Test resonances for both axis
+gcode = 
+	M118 DO NOT TOUCH THE PRINTER UNTIL DONE!!!
+	HOME_IF_NEEDED
+	SHAPER_CALIBRATE
+	RUN_SHELL_COMMAND CMD=adxl_shape_x
+	RUN_SHELL_COMMAND CMD=adxl_shape_y
+	M118 Test done
+	SAVE_AND_RESTART
+
+[gcode_macro ADXL_SHAPE_X]
+description = Test resonances for X axis
+gcode = 
+	M118 DO NOT TOUCH THE PRINTER UNTIL DONE!!!
+	HOME_IF_NEEDED
+	SHAPER_CALIBRATE AXIS=x
+	RUN_SHELL_COMMAND CMD=adxl_shape_x
+	M118 Test done
+	SAVE_AND_RESTART
+
+[gcode_macro ADXL_SHAPE_Y]
+description = Test resonances for Y axis
+gcode = 
+	M118 DO NOT TOUCH THE PRINTER UNTIL DONE!!!
+	HOME_IF_NEEDED
+	SHAPER_CALIBRATE AXIS=y
+	RUN_SHELL_COMMAND CMD=adxl_shape_y
+	M118 Test done
+	SAVE_AND_RESTART
+
+[gcode_shell_command adxl_shape_x]
+command = sh ~/printer_data/config/shaper/adxl_shape_x.sh
+timeout = 60.
+verbose = True
+
+[gcode_shell_command adxl_shape_y]
+command = sh ~/printer_data/config/shaper/adxl_shape_y.sh
+timeout = 60.
+verbose = True
+
+[gcode_macro _KAMP_Settings]
+description = This macro contains all adjustable settings for KAMP
+variable_verbose_enable = True
+variable_mesh_margin = 0
+variable_fuzz_amount = 0
+variable_probe_dock_enable = False
+variable_attach_macro = 'Attach_Probe'
+variable_detach_macro = 'Dock_Probe'
+variable_purge_height = 0.8
+variable_tip_distance = 0
+variable_purge_margin = 10
+variable_purge_amount = 30
+variable_flow_rate = 12
+variable_smart_park_height = 10
+gcode = 
+	
+	{action_respond_info(" Running the KAMP_Settings macro does nothing, it is only used for storing KAMP settings. ")}
+
+[gcode_shell_command backup_cfg]
+command = /usr/bin/bash /home/klipper/printer_data/config/autocommit.sh
+timeout = 30
+verbose = True
+
+[gcode_macro BACKUP_CFG]
+description = Backs up config directory GitHub
+gcode = 
+	RUN_SHELL_COMMAND CMD=backup_cfg
+
+[skew_correction]
+
+[gcode_arcs]
+resolution = 0.1
+
+[mcu]
+serial = /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0
+restart_method = command
+
+[printer]
+kinematics = cartesian
+max_velocity = 275
+max_accel = 3500
+max_z_velocity = 15
+max_z_accel = 45
+square_corner_velocity = 8.0
+
+[stepper_x]
+step_pin = PC2
+dir_pin = !PB9
+enable_pin = !PC3
+microsteps = 128
+rotation_distance = 39.56
+endstop_pin = tmc2209_stepper_x:virtual_endstop
+position_endstop = 0
+position_max = 223
+homing_speed = 40
+homing_retract_dist = 0
+
+[tmc2209 stepper_x]
+uart_pin = PC1
+run_current = 0.900
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.110
+uart_address = 3
+driver_sgthrs = 81
+diag_pin = PA5
+
+[stepper_y]
+step_pin = PB8
+dir_pin = PB7
+enable_pin = !PC3
+microsteps = 128
+rotation_distance = 39.40
+endstop_pin = tmc2209_stepper_y:virtual_endstop
+position_endstop = 0
+position_max = 223
+homing_speed = 40
+homing_retract_dist = 0
+
+[tmc2209 stepper_y]
+uart_pin = PC0
+run_current = 1.000
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.110
+uart_address = 3
+driver_sgthrs = 81
+diag_pin = PA6
+
+[stepper_z]
+step_pin = PB6
+dir_pin = !PB5
+enable_pin = !PC3
+microsteps = 128
+rotation_distance = 4
+endstop_pin = probe:z_virtual_endstop
+position_min = -3
+position_max = 258
+homing_speed = 5
+
+[tmc2209 stepper_z]
+uart_pin = PA15
+run_current = 1.000
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.110
+uart_address = 3
+diag_pin = PA7
+
+[extruder]
+step_pin = PB4
+dir_pin = !PB3
+enable_pin = !PC3
+microsteps = 256
+rotation_distance = 4.10
+nozzle_diameter = 0.400
+filament_diameter = 1.750
+heater_pin = PA1
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC5
+min_temp = 0
+max_temp = 300
+max_extrude_only_distance = 150.0
+pressure_advance = 0.0465
+max_extrude_cross_section = 5
+control = pid
+pid_kp = 23.147
+pid_ki = 1.559
+pid_kd = 85.934
+
+[tmc2209 extruder]
+uart_pin = PC14
+run_current = 0.550
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.110
+uart_address = 3
+
+[heater_bed]
+heater_pin = PA2
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC4
+min_temp = 0
+max_temp = 110
+control = pid
+pid_kp = 68.957
+pid_ki = 1.281
+pid_kd = 928.332
+
+[probe]
+pin = PB1
+x_offset = 27
+y_offset = -20
+samples = 3
+samples_result = median
+samples_tolerance = 0.01
+samples_tolerance_retries = 5
+z_offset = 1.660
+
+[safe_z_home]
+home_xy_position = 84.50, 135
+speed = 100.0
+z_hop = 10
+z_hop_speed = 15
+
+[bed_mesh]
+speed = 175
+mesh_min = 27, 5
+mesh_max = 222, 203
+probe_count = 5,5
+algorithm = bicubic
+fade_start = 1
+fade_end = 10
+fade_target = 0
+
+[fan]
+pin = PA0
+
+[display]
+lcd_type = st7920
+cs_pin = PB12
+sclk_pin = PB13
+sid_pin = PB15
+encoder_pins = ^PB14, ^PB10
+click_pin = ^!PB2
+
+[input_shaper]
+shaper_freq_x = 55.0
+shaper_type_x = mzv
+shaper_freq_y = 40.6
+shaper_type_y = mzv
+
+[bed_screws]
+screw1_name = front left
+screw1 = 26.5, 31
+screw2_name = front right
+screw2 = 196.75, 31
+screw3_name = back right
+screw3 = 196.75, 201
+screw4_name = back left
+screw4 = 26.5, 201
+
+[screws_tilt_adjust]
+screw1_name = center
+screw1 = 84.50, 135
+screw2_name = front left
+screw2 = 0, 51
+screw3_name = front right
+screw3 = 169.75, 51
+screw4_name = back right
+screw4 = 169.75, 221
+screw5_name = back left
+screw5 = 0, 221
+speed = 50
+horizontal_move_z = 10
+screw_thread = CCW-M4
+
+[output_pin beeper]
+pin = PC6
+value = 0
+shutdown_value = 0
+pwm = True
+cycle_time = 0.0005
+
+[filament_switch_sensor filament_sensor]
+switch_pin = !PA4
+pause_on_runout = True
+insert_gcode = 
+	M117 Insert Detected
+	{ action_respond_info("Insert Detected") }
+runout_gcode = 
+	M117 Runout Detected
+	{ action_respond_info("Runout Detected") }
+	CONDITIONAL_BEEP i=3 dur=300 freq=400
+
+[gcode_macro update_git]
+gcode = 
+	RUN_SHELL_COMMAND CMD=update_git_script
+
+[gcode_shell_command update_git_script]
+command = bash /home/klipper/printer_data/klipper-backup/script.sh
+timeout = 90.0
+verbose = True
+
+[gcode_macro PRINT_START]
+gcode = 
+	{% set BED_TEMP = params.BED_TEMP|default(60)|float %}
+	{% set HOTEND_TEMP = params.HOTEND_TEMP|default(215)|float %}
+	
+	BED_MESH_CLEAR
+	
+	G90
+	
+	{% if printer.heater_bed.temperature < (BED_TEMP * 0.95) %}
+	
+	M140 S{BED_TEMP}
+	
+	G28
+	
+	G0 X{printer.toolhead.axis_minimum.x + 10} Y{printer.toolhead.axis_minimum.y + 10} Z5 F{250 * 60}
+	
+	{% endif %}
+	
+	M190 S{BED_TEMP}
+	
+	G28
+	
+	BED_MESH_CALIBRATE
+	
+	M104 S{HOTEND_TEMP}
+	
+	SMART_PARK
+	
+	M109 S{HOTEND_TEMP}
+	
+	LINE_PURGE
+	
+	SKEW_PROFILE LOAD=my_skew_profile
+
+[gcode_macro Home_Check]
+description = Checks if the printer is homed, if not it homes the printer
+gcode = 
+	{% if printer.toolhead.homed_axes != "xyz" %}
+	G28
+	{% endif %}
+
+[gcode_macro PREHEAT_PETG_Hatchbox]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(230)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(70)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PLA_Hatchbox]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(225)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(60)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PLA_Eryone]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(215)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(65)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PLA+_Eryone]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(215)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(65)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PETG_Polymaker]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(235)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(60)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PETG_California_Filament]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(240)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(70)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PETG_Sunlu]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(225)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(70)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[bed_mesh default]
+version = 1
+points = 
+	0.531719, 0.152031, -0.196406, -0.520469
+	0.523125, 0.156875, -0.200625, -0.520313
+	0.496562, 0.150937, -0.206250, -0.530469
+x_count = 4
+y_count = 3
+mesh_x_pps = 2
+mesh_y_pps = 2
+algo = lagrange
+tension = 0.2
+min_x = 46.71
+max_x = 173.28
+min_y = 100.21
+max_y = 119.78999999999999
+
+[skew_correction my_skew_profile]
+xy_skew = -2.220446049250313e-16
+xz_skew = 0.0
+yz_skew = 0.0
+=======================
+Extruder max_extrude_ratio=2.078758
+mcu 'mcu': Starting serial connect
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+Starting Klippy...
+Args: ['/home/Klipper/klipper/klippy/klippy.py', '/home/Klipper/printer_data/config/printer.cfg', '-l', '/home/Klipper/printer_data/logs/klippy.log', '-I', '/home/Klipper/printer_data/comms/klippy.serial', '-a', '/home/Klipper/printer_data/comms/klippy.sock']
+Git version: 'v0.11.0-275-g8ef0f7d7-dirty'
+Untracked files: klippy/extras/gcode_shell_command.py
+Branch: master
+Remote: origin
+Tracked URL: https://github.com/Klipper3d/klipper.git
+CPU: 4 core ARMv7 Processor rev 4 (v7l)
+Python: '3.9.2 (default, Mar 12 2021, 04:06:34) \n[GCC 10.2.1 20210110]'
+Building C code module c_helper.so
+Start printer at Sun Sep 17 18:06:51 2023 (1694988411.2 1598.1)
+===== Config file =====
+[force_move]
+enable_force_move = True
+
+[virtual_sdcard]
+path = /home/klipper/printer_data/gcodes
+
+[exclude_object]
+
+[pause_resume]
+
+[display_status]
+
+[delayed_gcode DISABLEFILAMENTSENSOR]
+initial_duration = 1
+gcode = 
+	SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE=0
+
+[gcode_macro _globals]
+variable_filament_sensor_enabled = 0
+variable_beeping_enabled = 1
+variable_bed_temp_over = 10
+variable_pre_purge_prime_length = 1.40
+gcode = 
+	
+	SET_GCODE_VARIABLE MACRO=_globals VARIABLE=pre_purge_prime_length VALUE={ variable_pre_purge_prime_length }
+	SET_GCODE_VARIABLE MACRO=_globals VARIABLE=filament_sensor_enabled VALUE={ variable_filament_sensor_enabled }
+	SET_GCODE_VARIABLE MACRO=_globals VARIABLE=beeping_enabled VALUE={ variable_beeping_enabled }
+	SET_GCODE_VARIABLE MACRO=_globals VARIABLE=bed_temp_over VALUE={ variable_bed_temp_over }
+
+[gcode_macro CONDITIONAL_BEEP]
+gcode = 
+	
+	{% set i = params.I|default(1)|int %}
+	{% set dur = params.DUR|default(100)|int %}
+	{% set freq = params.FREQ|default(2000)|int %}
+	
+	{% set BEEPING_ENABLED=printer["gcode_macro _globals"].beeping_enabled|default(-1)|int %}
+	
+	{% if BEEPING_ENABLED == 1 %}
+	BEEP I={i} DUR={dur} FREQ={freq}
+	{% endif %}
+
+[gcode_macro ADJUST_FILAMENT_SENSOR_STATUS]
+gcode = 
+	
+	{% set NEWSTATUS = params.ENABLE|default(-1)|int %}
+	
+	{% set FILAMENT_SENSOR_ENABLED=printer["gcode_macro _globals"].filament_sensor_enabled|default(-1)|int %}
+	
+	{% if FILAMENT_SENSOR_ENABLED == 1 and NEWSTATUS != -1 %}
+	SET_FILAMENT_SENSOR SENSOR=filament_sensor ENABLE={NEWSTATUS}
+	{% endif %}
+
+[gcode_macro M109]
+rename_existing = M99109
+gcode = 
+	
+	{% set s = params.S|float %}
+	
+	M104 {% for p in params %}{'%s%s' % (p, params[p])}{% endfor %}
+	{% if s != 0 %}
+	TEMPERATURE_WAIT SENSOR=extruder MINIMUM={s} MAXIMUM={s+1}
+	{% endif %}
+
+[gcode_macro M190]
+rename_existing = M99190
+gcode = 
+	
+	{% set s = params.S|float %}
+	
+	M140 {% for p in params %}{'%s%s' % (p, params[p])}{% endfor %}
+	{% if s != 0 %}
+	TEMPERATURE_WAIT SENSOR=heater_bed MINIMUM={s} MAXIMUM={s+1}
+	{% endif %}
+
+[gcode_macro PURGE_LINE]
+gcode = 
+	{% set PRE_PURGE_PRIME_LENGTH=printer["gcode_macro _globals"].pre_purge_prime_length|default(1.40)|float %}
+	ADJUST_FILAMENT_SENSOR_STATUS ENABLE=1
+	
+	
+	{% set extrudeAmount = 26.6 %}
+	{% set movementLength = 100.0 %}
+	{% set movementSpeed = 15 * 60 %}
+	{% set xStart = 0.5 %}
+	{% set yStart = 0.5 %}
+	
+	
+	{% set maxVelocity = printer.configfile.settings.printer.max_velocity|default(200)|int %}
+	{% set maxVelocityAdjusted =  (0.95 * maxVelocity * 60)|int  %}
+	
+	G92 E0.0
+	G90
+	G0 X{xStart} Y{yStart} F{maxVelocityAdjusted}
+	G1 Z0.4 F500.0
+	M83
+	G1 E{PRE_PURGE_PRIME_LENGTH} F500
+	G1 X{xStart + movementLength} E{extrudeAmount} F{movementSpeed}
+	
+	G92 E0.0
+	M82
+	G1 Z5.0
+
+[gcode_macro LOAD_FILAMENT]
+gcode = 
+	M83
+	G1 E30 F300
+	G1 E15 F150
+	M82
+
+[gcode_macro UNLOAD_FILAMENT]
+gcode = 
+	M83
+	G1 X125 Y50 Z80
+	G1 E10 F300
+	G1 E-10 F3000
+	G1 E-50 F1800
+	G1 E-10 F900
+	M82
+
+[gcode_macro M600]
+gcode = 
+	CONDITIONAL_BEEP i=1 dur=300
+	CONDITIONAL_BEEP i=1 dur=100
+	CONDITIONAL_BEEP i=1 dur=100
+	PAUSE
+
+[gcode_macro PAUSE]
+rename_existing = BASE_PAUSE
+gcode = 
+	
+	{% set z = params.Z|default(10)|int %}
+	
+	{% if printer['pause_resume'].is_paused|int == 0 %}
+	SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=zhop VALUE={z}
+	SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=etemp VALUE={printer['extruder'].target}
+	
+	ADJUST_FILAMENT_SENSOR_STATUS ENABLE=0
+	
+	SAVE_GCODE_STATE NAME=PAUSE
+	BASE_PAUSE
+	{% if (printer.gcode_move.position.z + z) < printer.toolhead.axis_maximum.z %}
+	G91
+	G1 Z{z} F900
+	{% else %}
+	{ action_respond_info("Pause zhop exceeds maximum Z height.") }
+	SET_GCODE_VARIABLE MACRO=RESUME VARIABLE=zhop VALUE=0
+	{% endif %}
+	G90
+	G1 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_minimum.y+5} F6000
+	SAVE_GCODE_STATE NAME=PAUSEPARK
+	M104 S0
+	SET_IDLE_TIMEOUT TIMEOUT=43200
+	{% endif %}
+description = Pause the actual running print
+variable_restore_idle_timeout = 0
+
+[gcode_macro RESUME]
+rename_existing = BASE_RESUME
+variable_zhop = 0
+variable_etemp = 0
+gcode = 
+	
+	{% set e = params.E|default(2.5)|int %}
+	
+	{% if printer['pause_resume'].is_paused|int == 1 %}
+	ADJUST_FILAMENT_SENSOR_STATUS ENABLE=1
+	
+	SET_IDLE_TIMEOUT TIMEOUT={printer.configfile.settings.idle_timeout.timeout}
+	{% if etemp > 0 %}
+	M109 S{etemp|int}
+	{% endif %}
+	RESTORE_GCODE_STATE NAME=PAUSEPARK MOVE=1 MOVE_SPEED=100
+	G91
+	M83
+	{% if printer[printer.toolhead.extruder].temperature >= printer.configfile.settings.extruder.min_extrude_temp %}
+	G1 Z{zhop * -1} E{e} F900
+	{% else %}
+	G1 Z{zhop * -1} F900
+	{% endif %}
+	RESTORE_GCODE_STATE NAME=PAUSE MOVE=1 MOVE_SPEED=60
+	BASE_RESUME
+	{% endif %}
+description = Resume the actual running print
+variable_last_extruder_temp = 0
+
+[gcode_macro _CG28]
+gcode = 
+	{% if "xyz" not in printer.toolhead.homed_axes %}
+	G28
+	{% endif %}
+
+[gcode_macro BEEP]
+description = BEEP I=3 DUR=200 FREQ=2000: Beep 3 times, for 200ms each, at 2kHz frequency.
+gcode = 
+	
+	{% set i = params.I|default(1)|int %}
+	{% set dur = params.DUR|default(100)|int %}
+	{% set freq = params.FREQ|default(2000)|int %}
+	
+	{% for iteration in range(i|int) %}
+	SET_PIN PIN=beeper VALUE=0.8 CYCLE_TIME={ 1.0/freq if freq > 0 else 1 }
+	G4 P{dur}
+	SET_PIN PIN=beeper VALUE=0
+	G4 P{dur}
+	{% endfor %}
+
+[gcode_macro PARKFRONT]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKFRONT
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_minimum.y+5} Z{printer.toolhead.axis_maximum.z/2} F6000
+	RESTORE_GCODE_STATE NAME=PARKFRONT
+
+[gcode_macro PARKFRONTLOW]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKFRONT
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_minimum.y+5} Z20 F6000
+	RESTORE_GCODE_STATE NAME=PARKFRONT
+
+[gcode_macro PARKREAR]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKREAR
+	G90
+	G0 X{printer.toolhead.axis_minimum.x+10} Y{printer.toolhead.axis_maximum.y-10} Z{printer.toolhead.axis_maximum.z-50} F6000
+	RESTORE_GCODE_STATE NAME=PARKREAR
+
+[gcode_macro PARKREARCENTER]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKREARCENTER
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_maximum.y-10} Z{printer.toolhead.axis_maximum.z-50} F6000
+	RESTORE_GCODE_STATE NAME=PARKREARCENTER
+
+[gcode_macro PARKCENTER]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKCENTER
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_maximum.y/2} Z{printer.toolhead.axis_maximum.z/2} F6000
+	RESTORE_GCODE_STATE NAME=PARKCENTER
+
+[gcode_macro PARKBED]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKBED
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_maximum.y/2} Z15 F6000
+	RESTORE_GCODE_STATE NAME=PARKBED
+
+[gcode_macro PARKBED_MID]
+gcode = 
+	HOME_IF_NEEDED
+	SAVE_GCODE_STATE NAME=PARKBED
+	G90
+	G0 X{printer.toolhead.axis_maximum.x/2} Y{printer.toolhead.axis_maximum.y/2} Z50 F6000
+	RESTORE_GCODE_STATE NAME=PARKBED
+
+[gcode_macro MECHANICAL_GANTRY_CALIBRATION]
+gcode = 
+	
+	{% set my_current = params.CURRENT|default(0.20)|float %}
+	
+	{% set oldcurrent = printer.configfile.settings["tmc2209 stepper_z"].run_current %}
+	{% set oldhold = printer.configfile.settings["tmc2209 stepper_z"].hold_current %}
+	{% set x_max = printer.toolhead.axis_maximum.x %}
+	{% set y_max = printer.toolhead.axis_maximum.y %}
+	{% set z_max = printer.toolhead.axis_maximum.z %}
+	{% set fast_move_z = printer.configfile.settings["printer"].max_z_velocity %}
+	{% set fast_move = printer.configfile.settings["printer"].max_velocity %}
+	M117 {printer.homed_axes}
+	{% if printer.homed_axes != 'xyz' %}
+	G28
+	{% endif %}
+	G90
+	G0 X{x_max / 2} Y{y_max / 2} F{fast_move * 30 }
+	
+	G0 Z{z_max -5} F{fast_move_z * 60 }
+	
+	SET_TMC_CURRENT STEPPER=stepper_z CURRENT={my_current}
+	
+	{% if printer.configfile.settings["stepper_z1"] %}
+	SET_TMC_CURRENT STEPPER=stepper_z1 CURRENT={my_current}
+	{% endif %}
+	
+	BEEP I=1
+	G4 P200
+	
+	SET_KINEMATIC_POSITION Z={z_max - 25}
+	
+	G1 Z{z_max} F{6 * 60}
+	BEEP I=2
+	G4 P10000
+	G1 Z{z_max -6} F{6 * 60}
+	BEEP I=3
+	G4 P200
+	
+	SET_TMC_CURRENT STEPPER=stepper_z CURRENT={oldcurrent} HOLDCURRENT={oldhold}
+	
+	{% if printer.configfile.settings["stepper_z1"] %}
+	SET_TMC_CURRENT STEPPER=stepper_z1 CURRENT={oldcurrent} HOLDCURRENT={oldhold}
+	{% endif %}
+	
+	G1 Z{z_max -30} F{6 * 60}
+	
+	G4 P200
+	G28 Z
+
+[gcode_macro G34]
+gcode = 
+	MECHANICAL_GANTRY_CALIBRATION
+
+[menu __main __setup __calib __mech_gantry_calibrate]
+type = command
+enable = {not printer.idle_timeout.state == "Printing"}
+name = G34 Gantry Level
+gcode = 
+	G34
+
+[gcode_macro PID_TEST_BED]
+gcode = 
+	
+	{% set TARGETTEMP = params.TEMP|default(70)|int %}
+	
+	{% set max_x = printer.configfile.config["stepper_x"]["position_max"]|float %}
+	{% set max_y = printer.configfile.config["stepper_y"]["position_max"]|float %}
+	G28
+	G90
+	G1 X{max_x/2} Y{max_y/2} Z40 F6000
+	PID_CALIBRATE HEATER=heater_bed TARGET={TARGETTEMP}
+
+[gcode_macro PID_TEST_HOTEND]
+gcode = 
+	
+	{% set TARGETTEMP = params.TEMP|default(245)|int %}
+	
+	{% set max_x = printer.configfile.config["stepper_x"]["position_max"]|float %}
+	{% set max_y = printer.configfile.config["stepper_y"]["position_max"]|float %}
+	G28
+	G90
+	G1 X{max_x/2} Y{max_y/2} Z10 F6000
+	M106 S64
+	PID_CALIBRATE HEATER=extruder TARGET={TARGETTEMP}
+
+[gcode_macro PID_TEST_ALL]
+gcode = 
+	PID_TEST_BED
+	PID_TEST_HOTEND
+	SAVE_CONFIG
+
+[gcode_macro DO_PROBE_CALIBRATE]
+gcode = 
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=60
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET=180
+	TEMPERATURE_WAIT SENSOR=heater_bed MINIMUM=60
+	TEMPERATURE_WAIT SENSOR=extruder MINIMUM=180
+	G28
+	PROBE_CALIBRATE
+
+[gcode_macro DO_CREATE_MESH]
+gcode = 
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET=60
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET=180
+	TEMPERATURE_WAIT SENSOR=heater_bed MINIMUM=60
+	TEMPERATURE_WAIT SENSOR=extruder MINIMUM=180
+	G28
+	_BED_MESH_CALIBRATE
+
+[gcode_macro CANCEL_PRINT]
+description = Cancel the actual running print
+rename_existing = CANCEL_PRINT_BASE
+gcode = 
+	
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set allow_park = client.park_at_cancel|default(false)|lower == 'true' %}
+	{% set retract = client.cancel_retract|default(5.0)|abs %}
+	
+	{% set park_x = "" if (client.park_at_cancel_x|default(none) is none)
+	else "X=" ~ client.park_at_cancel_x %}
+	{% set park_y = "" if (client.park_at_cancel_y|default(none) is none)
+	else "Y=" ~ client.park_at_cancel_y %}
+	{% set custom_park = park_x|length > 0 or park_y|length > 0 %}
+	
+	
+	{% if printer['gcode_macro PAUSE'].restore_idle_timeout > 0 %}
+	SET_IDLE_TIMEOUT TIMEOUT={printer['gcode_macro PAUSE'].restore_idle_timeout}
+	{% endif %}
+	{% if (custom_park or not printer.pause_resume.is_paused) and allow_park %} _TOOLHEAD_PARK_PAUSE_CANCEL {park_x} {park_y} {% endif %}
+	_CLIENT_RETRACT LENGTH={retract}
+	TURN_OFF_HEATERS
+	M106 S0
+	
+	SET_PAUSE_NEXT_LAYER ENABLE=0
+	SET_PAUSE_AT_LAYER ENABLE=0 LAYER=0
+	CANCEL_PRINT_BASE
+
+[gcode_macro SET_PAUSE_NEXT_LAYER]
+description = Enable a pause if the next layer is reached
+gcode = 
+	{% set pause_next_layer = printer['gcode_macro SET_PRINT_STATS_INFO'].pause_next_layer %}
+	{% set ENABLE = params.ENABLE|default(1)|int != 0 %}
+	{% set MACRO = params.MACRO|default(pause_next_layer.call, True) %}
+	SET_GCODE_VARIABLE MACRO=SET_PRINT_STATS_INFO VARIABLE=pause_next_layer VALUE="{{ 'enable': ENABLE, 'call': MACRO }}"
+
+[gcode_macro SET_PAUSE_AT_LAYER]
+description = Enable/disable a pause if a given layer number is reached
+gcode = 
+	{% set pause_at_layer = printer['gcode_macro SET_PRINT_STATS_INFO'].pause_at_layer %}
+	{% set ENABLE = params.ENABLE|int != 0 if params.ENABLE is defined
+	else params.LAYER is defined %}
+	{% set LAYER = params.LAYER|default(pause_at_layer.layer)|int %}
+	{% set MACRO = params.MACRO|default(pause_at_layer.call, True) %}
+	SET_GCODE_VARIABLE MACRO=SET_PRINT_STATS_INFO VARIABLE=pause_at_layer VALUE="{{ 'enable': ENABLE, 'layer': LAYER, 'call': MACRO }}"
+
+[gcode_macro SET_PRINT_STATS_INFO]
+rename_existing = SET_PRINT_STATS_INFO_BASE
+description = Overwrite, to get pause_next_layer and pause_at_layer feature
+variable_pause_next_layer = { 'enable': False, 'call': "PAUSE" }
+variable_pause_at_layer = { 'enable': False, 'layer': 0, 'call': "PAUSE" }
+gcode = 
+	{% if pause_next_layer.enable %}
+	{action_respond_info("%s, forced by pause_next_layer" % pause_next_layer.call)}
+	{pause_next_layer.call}
+	SET_PAUSE_NEXT_LAYER ENABLE=0
+	{% elif pause_at_layer.enable and params.CURRENT_LAYER is defined and params.CURRENT_LAYER|int == pause_at_layer.layer %}
+	{action_respond_info("%s, forced by pause_at_layer [%d]" % (pause_at_layer.call, pause_at_layer.layer))}
+	{pause_at_layer.call}
+	SET_PAUSE_AT_LAYER ENABLE=0
+	{% endif %}
+	SET_PRINT_STATS_INFO_BASE {rawparams}
+
+[gcode_macro _TOOLHEAD_PARK_PAUSE_CANCEL]
+description = Helper: park toolhead used in PAUSE and CANCEL_PRINT
+gcode = 
+	
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set velocity = printer.configfile.settings.pause_resume.recover_velocity %}
+	{% set use_custom     = client.use_custom_pos|default(false)|lower == 'true' %}
+	{% set custom_park_x  = client.custom_park_x|default(0.0) %}
+	{% set custom_park_y  = client.custom_park_y|default(0.0) %}
+	{% set park_dz        = client.custom_park_dz|default(2.0)|abs %}
+	{% set sp_hop         = client.speed_hop|default(15) * 60 %}
+	{% set sp_move        = client.speed_move|default(velocity) * 60 %}
+	
+	{% set origin    = printer.gcode_move.homing_origin %}
+	{% set act       = printer.gcode_move.gcode_position %}
+	{% set max       = printer.toolhead.axis_maximum %}
+	{% set cone      = printer.toolhead.cone_start_z|default(max.z) %}
+	{% set round_bed = True if printer.configfile.settings.printer.kinematics is in ['delta','polar','rotary_delta','winch']
+	else False %}
+	
+	{% set z_min = params.Z_MIN|default(0)|float %}
+	{% set z_park = [[(act.z + park_dz), z_min]|max, (max.z - origin.z)]|min %}
+	{% set x_park = params.X       if params.X is defined
+	else custom_park_x  if use_custom
+	else 0.0            if round_bed
+	else (max.x - 5.0) %}
+	{% set y_park = params.Y       if params.Y is defined
+	else custom_park_y  if use_custom
+	else (max.y - 5.0)  if round_bed and z_park < cone
+	else 0.0            if round_bed
+	else (max.y - 5.0) %}
+	
+	_CLIENT_RETRACT
+	{% if "xyz" in printer.toolhead.homed_axes %}
+	G90
+	G1 Z{z_park} F{sp_hop}
+	G1 X{x_park} Y{y_park} F{sp_move}
+	{% if not printer.gcode_move.absolute_coordinates %} G91 {% endif %}
+	{% else %}
+	{action_respond_info("Printer not homed")}
+	{% endif %}
+
+[gcode_macro _CLIENT_EXTRUDE]
+description = Extrudes, if the extruder is hot enough
+gcode = 
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set use_fw_retract = (client.use_fw_retract|default(false)|lower == 'true') and (printer.firmware_retraction is defined) %}
+	{% set length = params.LENGTH|default(client.unretract)|default(1.0)|float %}
+	{% set speed = params.SPEED|default(client.speed_unretract)|default(35) %}
+	{% set absolute_extrude = printer.gcode_move.absolute_extrude %}
+	
+	{% if printer.extruder.can_extrude %}
+	{% if use_fw_retract %}
+	{% if length < 0 %}
+	G10
+	{% else %}
+	G11
+	{% endif %}
+	{% else %}
+	M83
+	G1 E{length} F{(speed|float|abs) * 60}
+	{% if absolute_extrude %}
+	M82
+	{% endif %}
+	{% endif %}
+	{% else %}
+	{action_respond_info("Extruder not hot enough")}
+	{% endif %}
+
+[gcode_macro _CLIENT_RETRACT]
+description = Retracts, if the extruder is hot enough
+gcode = 
+	{% set client = printer['gcode_macro _CLIENT_VARIABLE']|default({}) %}
+	{% set length = params.LENGTH|default(client.retract)|default(1.0)|float %}
+	{% set speed = params.SPEED|default(client.speed_retract)|default(35) %}
+	
+	_CLIENT_EXTRUDE LENGTH=-{length|float|abs} SPEED={speed|float|abs}
+
+[gcode_macro PRINT_END]
+gcode = 
+	ADJUST_FILAMENT_SENSOR_STATUS ENABLE=0
+	CONDITIONAL_BEEP I=2 DUR=30 FREQ=8500
+	{% set PRE_PURGE_PRIME_LENGTH=printer["gcode_macro _globals"].pre_purge_prime_length|default(1.40)|float %}
+	
+	M400
+	G92 E0
+	G1 E-{PRE_PURGE_PRIME_LENGTH} F400
+	G91
+	
+	
+	{% set zVelocity = printer.configfile.settings.printer.max_z_velocity|default(15)|int %}
+	{% set maxVelocity = printer.configfile.settings.printer.max_velocity|default(200)|int %}
+	{% set zVelocityAdjusted =  (0.95 * zVelocity * 60)|int  %}
+	{% set maxVelocityAdjusted =  (0.95 * maxVelocity * 60)|int  %}
+	
+	
+	{% set max_x = printer.configfile.config["stepper_x"]["position_max"]|float %}
+	{% set max_y = printer.configfile.config["stepper_y"]["position_max"]|float %}
+	{% set max_z = printer.configfile.config["stepper_z"]["position_max"]|float %}
+	
+	
+	{% if printer.toolhead.position.x < (max_x - 20) %}
+	{% set x_safe = 20.0 %}
+	{% else %}
+	{% set x_safe = -20.0 %}
+	{% endif %}
+	
+	{% if printer.toolhead.position.y < (max_y - 20) %}
+	{% set y_safe = 20.0 %}
+	{% else %}
+	{% set y_safe = -20.0 %}
+	{% endif %}
+	
+	{% set lift_height = 25.0 %}
+	{% if printer.toolhead.position.z < (max_z - lift_height) %}
+	{% set z_safe = lift_height %}
+	{% else %}
+	{% set z_safe = max_z - printer.toolhead.position.z %}
+	{% endif %}
+	
+	G0 Z{z_safe} F{zVelocityAdjusted}
+	G0 X{x_safe} Y{y_safe} F{maxVelocityAdjusted}
+	TURN_OFF_HEATERS
+	M107
+	G90
+	G0 X60 Y{max_y} F3600
+	SET_SKEW CLEAR=1
+
+[gcode_macro DISABLE_STEPPERS]
+description = Disables the printers stepper motors
+gcode = 
+	M84 X Y E
+
+[gcode_macro Save_Settings]
+description = Save Settings
+gcode = 
+	SAVE_CONFIG
+
+[gcode_macro MESH_CHECK]
+description = Checks if a mesh exists to determine whether to create a new one
+gcode = 
+	{% if printer.bed_mesh.profiles['default'] is defined %}
+	BED_MESH_PROFILE LOAD='default'
+	{% else %}
+	BED_MESH_CALIBRATE
+	{% endif %}
+
+[gcode_macro GET_TIMELAPSE_SETUP]
+description = Print the Timelapse setup
+gcode = 
+	{% set tl = printer['gcode_macro TIMELAPSE_TAKE_FRAME'] %}
+	{% set output_txt = ["Timelapse Setup:"] %}
+	{% set _dummy = output_txt.append("enable: %s" % tl.enable) %}
+	{% set _dummy = output_txt.append("park: %s" % tl.park.enable) %}
+	{% if tl.park.enable %}
+	{% set _dummy = output_txt.append("park position: %s time: %s s" % (tl.park.pos, tl.park.time)) %}
+	{% set _dummy = output_txt.append("park cord x:%s y:%s dz:%s" % (tl.park.coord.x, tl.park.coord.y, tl.park.coord.dz)) %}
+	{% set _dummy = output_txt.append("travel speed: %s mm/s" % tl.speed.travel) %}
+	{% endif %}
+	{% set _dummy = output_txt.append("fw_retract: %s" % tl.extruder.fw_retract) %}
+	{% if not tl.extruder.fw_retract %}
+	{% set _dummy = output_txt.append("retract: %s mm speed: %s mm/s" % (tl.extruder.retract, tl.speed.retract)) %}
+	{% set _dummy = output_txt.append("extrude: %s mm speed: %s mm/s" % (tl.extruder.extrude, tl.speed.extrude)) %}
+	{% endif %}
+	{% set _dummy = output_txt.append("verbose: %s" % tl.verbose) %}
+	{action_respond_info(output_txt|join("\n"))}
+
+[gcode_macro _SET_TIMELAPSE_SETUP]
+description = Set user parameters for timelapse
+gcode = 
+	{% set tl = printer['gcode_macro TIMELAPSE_TAKE_FRAME'] %}
+	
+	{% set min = printer.toolhead.axis_minimum %}
+	{% set max = printer.toolhead.axis_maximum %}
+	{% set round_bed = True if printer.configfile.settings.printer.kinematics is in ['delta','polar','rotary_delta','winch']
+	else False %}
+	{% set park = {'min'   : {'x': (min.x / 1.42)|round(3) if round_bed else min.x|round(3),
+	'y': (min.y / 1.42)|round(3) if round_bed else min.y|round(3)},
+	'max'   : {'x': (max.x / 1.42)|round(3) if round_bed else max.x|round(3),
+	'y': (max.y / 1.42)|round(3) if round_bed else max.y|round(3)},
+	'center': {'x': (max.x-(max.x-min.x)/2)|round(3),
+	'y': (max.y-(max.y-min.y)/2)|round(3)}} %}
+	
+	{% if params.ENABLE %}
+	{% if params.ENABLE|lower is in ['true', 'false'] %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=enable VALUE={True if params.ENABLE|lower == 'true' else False}
+	{% else %}
+	{action_raise_error("ENABLE=%s not supported. Allowed values are [True, False]" % params.ENABLE|capitalize)}
+	{% endif %}
+	{% endif %}
+	{% if params.VERBOSE %}
+	{% if params.VERBOSE|lower is in ['true', 'false'] %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=verbose VALUE={True if params.VERBOSE|lower == 'true' else False}
+	{% else %}
+	{action_raise_error("VERBOSE=%s not supported. Allowed values are [True, False]" % params.VERBOSE|capitalize)}
+	{% endif %}
+	{% endif %}
+	{% if params.CUSTOM_POS_X %}
+	{% if params.CUSTOM_POS_X|float >= min.x and params.CUSTOM_POS_X|float <= max.x %}
+	{% set _dummy = tl.park.custom.update({'x':params.CUSTOM_POS_X|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("CUSTOM_POS_X=%s must be within [%s - %s]" % (params.CUSTOM_POS_X, min.x, max.x))}
+	{% endif %}
+	{% endif %}
+	{% if params.CUSTOM_POS_Y %}
+	{% if params.CUSTOM_POS_Y|float >= min.y and params.CUSTOM_POS_Y|float <= max.y %}
+	{% set _dummy = tl.park.custom.update({'y':params.CUSTOM_POS_Y|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("CUSTOM_POS_Y=%s must be within [%s - %s]" % (params.CUSTOM_POS_Y, min.y, max.y))}
+	{% endif %}
+	{% endif %}
+	{% if params.CUSTOM_POS_DZ %}
+	{% if params.CUSTOM_POS_DZ|float >= min.z and params.CUSTOM_POS_DZ|float <= max.z %}
+	{% set _dummy = tl.park.custom.update({'dz':params.CUSTOM_POS_DZ|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("CUSTOM_POS_DZ=%s must be within [%s - %s]" % (params.CUSTOM_POS_DZ, min.z, max.z))}
+	{% endif %}
+	{% endif %}
+	{% if params.PARK_ENABLE %}
+	{% if params.PARK_ENABLE|lower is in ['true', 'false'] %}
+	{% set _dummy = tl.park.update({'enable':True if params.PARK_ENABLE|lower == 'true' else False}) %}
+	{% else %}
+	{action_raise_error("PARK_ENABLE=%s not supported. Allowed values are [True, False]" % params.PARK_ENABLE|capitalize)}
+	{% endif %}
+	{% endif %}
+	{% if params.PARK_POS %}
+	{% if params.PARK_POS|lower is in ['center','front_left','front_right','back_left','back_right','custom','x_only','y_only'] %}
+	{% set dic = {'center'      : {'x': park.center.x   , 'y': park.center.y   , 'dz': 1                },
+	'front_left'  : {'x': park.min.x      , 'y': park.min.y      , 'dz': 0                },
+	'front_right' : {'x': park.max.x      , 'y': park.min.y      , 'dz': 0                },
+	'back_left'   : {'x': park.min.x      , 'y': park.max.y      , 'dz': 0                },
+	'back_right'  : {'x': park.max.x      , 'y': park.max.y      , 'dz': 0                },
+	'custom'      : {'x': tl.park.custom.x, 'y': tl.park.custom.y, 'dz': tl.park.custom.dz},
+	'x_only'      : {'x': tl.park.custom.x, 'y': 'none'          , 'dz': tl.park.custom.dz},
+	'y_only'      : {'x': 'none'          , 'y': tl.park.custom.y, 'dz': tl.park.custom.dz}} %}
+	{% set _dummy = tl.park.update({'pos':params.PARK_POS|lower}) %}
+	{% set _dummy = tl.park.update({'coord':dic[tl.park.pos]}) %}
+	{% else %}
+	{action_raise_error("PARK_POS=%s not supported. Allowed values are [CENTER, FRONT_LEFT, FRONT_RIGHT, BACK_LEFT, BACK_RIGHT, CUSTOM, X_ONLY, Y_ONLY]"
+	% params.PARK_POS|upper)}
+	{% endif %}
+	{% endif %}
+	{% if params.PARK_TIME %}
+	{% if params.PARK_TIME|float >= 0.0 %}
+	{% set _dummy = tl.park.update({'time':params.PARK_TIME|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("PARK_TIME=%s must be a positive number" % params.PARK_TIME)}
+	{% endif %}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=park VALUE="{tl.park}"
+	{% if params.TRAVEL_SPEED %}
+	{% if params.TRAVEL_SPEED|float > 0.0 %}
+	{% set _dummy = tl.speed.update({'travel':params.TRAVEL_SPEED|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("TRAVEL_SPEED=%s must be larger than 0" % params.TRAVEL_SPEED)}
+	{% endif %}
+	{% endif %}
+	{% if params.RETRACT_SPEED %}
+	{% if params.RETRACT_SPEED|float > 0.0 %}
+	{% set _dummy = tl.speed.update({'retract':params.RETRACT_SPEED|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("RETRACT_SPEED=%s must be larger than 0" % params.RETRACT_SPEED)}
+	{% endif %}
+	{% endif %}
+	{% if params.EXTRUDE_SPEED %}
+	{% if params.EXTRUDE_SPEED|float > 0.0 %}
+	{% set _dummy = tl.speed.update({'extrude':params.EXTRUDE_SPEED|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("EXTRUDE_SPEED=%s must be larger than 0" % params.EXTRUDE_SPEED)}
+	{% endif %}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=speed VALUE="{tl.speed}"
+	{% if params.EXTRUDE_DISTANCE %}
+	{% if params.EXTRUDE_DISTANCE|float >= 0.0 %}
+	{% set _dummy = tl.extruder.update({'extrude':params.EXTRUDE_DISTANCE|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("EXTRUDE_DISTANCE=%s must be specified as positiv number" % params.EXTRUDE_DISTANCE)}
+	{% endif %}
+	{% endif %}
+	{% if params.RETRACT_DISTANCE %}
+	{% if params.RETRACT_DISTANCE|float >= 0.0 %}
+	{% set _dummy = tl.extruder.update({'retract':params.RETRACT_DISTANCE|float|round(3)}) %}
+	{% else %}
+	{action_raise_error("RETRACT_DISTANCE=%s must be specified as positiv number" % params.RETRACT_DISTANCE)}
+	{% endif %}
+	{% endif %}
+	{% if params.FW_RETRACT %}
+	{% if params.FW_RETRACT|lower is in ['true', 'false'] %}
+	{% if 'firmware_retraction' in printer.configfile.settings %}
+	{% set _dummy = tl.extruder.update({'fw_retract': True if params.FW_RETRACT|lower == 'true' else False}) %}
+	{% else %}
+	{% set _dummy = tl.extruder.update({'fw_retract':False}) %}
+	{% if params.FW_RETRACT|capitalize == 'True' %}
+	{action_raise_error("[firmware_retraction] not defined in printer.cfg. Can not enable fw_retract")}
+	{% endif %}
+	{% endif %}
+	{% else %}
+	{action_raise_error("FW_RETRACT=%s not supported. Allowed values are [True, False]" % params.FW_RETRACT|capitalize)}
+	{% endif %}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=extruder VALUE="{tl.extruder}"
+	{% if printer.configfile.settings['gcode_macro pause'] is defined %}
+	{% set _dummy = tl.macro.update({'pause': printer.configfile.settings['gcode_macro pause'].rename_existing}) %}
+	{% endif %}
+	{% if printer.configfile.settings['gcode_macro resume'] is defined %}
+	{% set _dummy = tl.macro.update({'resume': printer.configfile.settings['gcode_macro resume'].rename_existing}) %}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=macro VALUE="{tl.macro}"
+
+[gcode_macro TIMELAPSE_TAKE_FRAME]
+description = Take Timelapse shoot
+variable_enable = False
+variable_takingframe = False
+variable_park = {'enable': False,
+	'pos'   : 'center',
+	'time'  : 0.1,
+	'custom': {'x': 0, 'y': 0, 'dz': 0},
+	'coord' : {'x': 0, 'y': 0, 'dz': 0}}
+variable_extruder = {'fw_retract': False,
+	'retract': 1.0,
+	'extrude': 1.0}
+variable_speed = {'travel': 100,
+	'retract': 15,
+	'extrude': 15}
+variable_verbose = True
+variable_restore = {'absolute': {'coordinates': True, 'extrude': True}, 'speed': 1500, 'e':0, 'factor': {'speed': 1.0, 'extrude': 1.0}}
+variable_macro = {'pause': 'PAUSE', 'resume': 'RESUME'}
+variable_is_paused = False
+gcode = 
+	{% set hyperlapse = True if params.HYPERLAPSE and params.HYPERLAPSE|lower =='true' else False %}
+	{% if enable %}
+	{% if (hyperlapse and printer['gcode_macro HYPERLAPSE'].run) or
+	(not hyperlapse and not printer['gcode_macro HYPERLAPSE'].run) %}
+	{% if park.enable %}
+	{% set pos = {'x': 'X' + park.coord.x|string if park.pos != 'y_only' else '',
+	'y': 'Y' + park.coord.y|string if park.pos != 'x_only' else '',
+	'z': 'Z'+ [printer.gcode_move.gcode_position.z + park.coord.dz, printer.toolhead.axis_maximum.z]|min|string} %}
+	{% set restore = {'absolute': {'coordinates': printer.gcode_move.absolute_coordinates,
+	'extrude'    : printer.gcode_move.absolute_extrude},
+	'speed'   : printer.gcode_move.speed,
+	'e'       : printer.gcode_move.gcode_position.e,
+	'factor'  : {'speed'  : printer.gcode_move.speed_factor,
+	'extrude': printer.gcode_move.extrude_factor}} %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=restore VALUE="{restore}"
+	{% if not printer[printer.toolhead.extruder].can_extrude %}
+	{% if verbose %}{action_respond_info("Timelapse: Warning, minimum extruder temperature not reached!")}{% endif %}
+	{% else %}
+	{% if extruder.fw_retract %}
+	G10
+	{% else %}
+	M83
+	G0 E-{extruder.retract} F{speed.retract * 60}
+	{% endif %}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=is_paused VALUE=True
+	{macro.pause}
+	SET_GCODE_OFFSET X=0 Y=0
+	G90
+	{% if "xyz" not in printer.toolhead.homed_axes %}
+	{% if verbose %}{action_respond_info("Timelapse: Warning, axis not homed yet!")}{% endif %}
+	{% else %}
+	G0 {pos.x} {pos.y} {pos.z} F{speed.travel * 60}
+	{% endif %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=takingframe VALUE=True
+	UPDATE_DELAYED_GCODE ID=_WAIT_TIMELAPSE_TAKE_FRAME DURATION=0.5
+	M400
+	{% endif %}
+	_TIMELAPSE_NEW_FRAME HYPERLAPSE={hyperlapse}
+	{% endif %}
+	{% else %}
+	{% if verbose %}{action_respond_info("Timelapse: disabled, take frame ignored")}{% endif %}
+	{% endif %}
+
+[gcode_macro _TIMELAPSE_NEW_FRAME]
+description = action call for timelapse shoot. must be a seperate macro
+gcode = 
+	{action_call_remote_method("timelapse_newframe",
+	macropark=printer['gcode_macro TIMELAPSE_TAKE_FRAME'].park,
+	hyperlapse=params.HYPERLAPSE)}
+
+[delayed_gcode _WAIT_TIMELAPSE_TAKE_FRAME]
+gcode = 
+	{% set tl = printer['gcode_macro TIMELAPSE_TAKE_FRAME'] %}
+	{% set factor = {'speed': printer.gcode_move.speed_factor, 'extrude': printer.gcode_move.extrude_factor} %}
+	{% if tl.takingframe %}
+	UPDATE_DELAYED_GCODE ID=_WAIT_TIMELAPSE_TAKE_FRAME DURATION=0.5
+	{% else %}
+	{tl.macro.resume} VELOCITY={tl.speed.travel}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_TAKE_FRAME VARIABLE=is_paused VALUE=False
+	{% if not printer[printer.toolhead.extruder].can_extrude %}
+	{action_respond_info("Timelapse: Warning minimum extruder temperature not reached!")}
+	{% else %}
+	{% if tl.extruder.fw_retract %}
+	G11
+	{% else %}
+	G0 E{tl.extruder.extrude} F{tl.speed.extrude * 60}
+	G0 F{tl.restore.speed}
+	{% if tl.restore.absolute.extrude %}
+	M82
+	G92 E{tl.restore.e}
+	{% endif %}
+	{% endif %}
+	{% endif %}
+	{% if tl.restore.factor.speed   != factor.speed   %} M220 S{(factor.speed*100)|round(0)}   {% endif %}
+	{% if tl.restore.factor.extrude != factor.extrude %} M221 S{(factor.extrude*100)|round(0)} {% endif %}
+	{% if not tl.restore.absolute.coordinates %} G91 {% endif %}
+	{% endif %}
+
+[gcode_macro HYPERLAPSE]
+description = Start/Stop a hyperlapse recording
+variable_cycle = 0
+variable_run = False
+gcode = 
+	{% set cycle = params.CYCLE|default(30)|int %}
+	{% if params.ACTION and params.ACTION|lower == 'start' %}
+	{action_respond_info("Hyperlapse: frames started (Cycle %d sec)" % cycle)}
+	SET_GCODE_VARIABLE MACRO=HYPERLAPSE VARIABLE=run VALUE=True
+	SET_GCODE_VARIABLE MACRO=HYPERLAPSE VARIABLE=cycle VALUE={cycle}
+	UPDATE_DELAYED_GCODE ID=_HYPERLAPSE_LOOP DURATION={cycle}
+	TIMELAPSE_TAKE_FRAME HYPERLAPSE=True
+	{% elif params.ACTION and params.ACTION|lower == 'stop' %}
+	{% if run %}{action_respond_info("Hyperlapse: frames stopped")}{% endif %}
+	SET_GCODE_VARIABLE MACRO=HYPERLAPSE VARIABLE=run VALUE=False
+	UPDATE_DELAYED_GCODE ID=_HYPERLAPSE_LOOP DURATION=0
+	{% else %}
+	{action_raise_error("Hyperlapse: No valid input parameter
+	Use:
+	- HYPERLAPSE ACTION=START [CYCLE=time]
+	- HYPERLAPSE ACTION=STOP")}
+	{% endif %}
+
+[delayed_gcode _HYPERLAPSE_LOOP]
+gcode = 
+	UPDATE_DELAYED_GCODE ID=_HYPERLAPSE_LOOP DURATION={printer["gcode_macro HYPERLAPSE"].cycle}
+	TIMELAPSE_TAKE_FRAME HYPERLAPSE=True
+
+[gcode_macro TIMELAPSE_RENDER]
+description = Render Timelapse video and wait for the result
+variable_render = False
+variable_run_identifier = 0
+gcode = 
+	{action_respond_info("Timelapse: Rendering started")}
+	{action_call_remote_method("timelapse_render", byrendermacro="True")}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_RENDER VARIABLE=render VALUE=True
+	{printer.configfile.settings['gcode_macro pause'].rename_existing}
+	UPDATE_DELAYED_GCODE ID=_WAIT_TIMELAPSE_RENDER DURATION=0.5
+
+[delayed_gcode _WAIT_TIMELAPSE_RENDER]
+gcode = 
+	{% set ri = printer['gcode_macro TIMELAPSE_RENDER'].run_identifier % 4 %}
+	SET_GCODE_VARIABLE MACRO=TIMELAPSE_RENDER VARIABLE=run_identifier VALUE={ri + 1}
+	{% if printer['gcode_macro TIMELAPSE_RENDER'].render %}
+	M117 Rendering {['-','\\','|','/'][ri]}
+	UPDATE_DELAYED_GCODE ID=_WAIT_TIMELAPSE_RENDER DURATION=0.5
+	{% else %}
+	{action_respond_info("Timelapse: Rendering finished")}
+	M117
+	{printer.configfile.settings['gcode_macro resume'].rename_existing}
+	{% endif %}
+
+[gcode_macro TEST_STREAM_DELAY]
+description = Helper macro to find stream and park delay
+gcode = 
+	{% set min = printer.toolhead.axis_minimum %}
+	{% set max = printer.toolhead.axis_maximum %}
+	{% set act = printer.toolhead.position %}
+	{% set tl = printer['gcode_macro TIMELAPSE_TAKE_FRAME'] %}
+	{% if act.z > 5.0 %}
+	G0 X{min.x + 5.0} F{tl.speed.travel|int * 60}
+	G0 X{(max.x-min.x)/2}
+	G4 P{tl.park.time|float * 1000}
+	_TIMELAPSE_NEW_FRAME HYPERLAPSE=FALSE
+	G0 X{max.x - 5.0}
+	{% else %}
+	{action_raise_error("Toolhead z %.3f to low. Please place head above z = 5.0" % act.z)}
+	{% endif %}
+
+[gcode_macro ADXL_SHAPE_ALL]
+description = Test resonances for both axis
+gcode = 
+	M118 DO NOT TOUCH THE PRINTER UNTIL DONE!!!
+	HOME_IF_NEEDED
+	SHAPER_CALIBRATE
+	RUN_SHELL_COMMAND CMD=adxl_shape_x
+	RUN_SHELL_COMMAND CMD=adxl_shape_y
+	M118 Test done
+	SAVE_AND_RESTART
+
+[gcode_macro ADXL_SHAPE_X]
+description = Test resonances for X axis
+gcode = 
+	M118 DO NOT TOUCH THE PRINTER UNTIL DONE!!!
+	HOME_IF_NEEDED
+	SHAPER_CALIBRATE AXIS=x
+	RUN_SHELL_COMMAND CMD=adxl_shape_x
+	M118 Test done
+	SAVE_AND_RESTART
+
+[gcode_macro ADXL_SHAPE_Y]
+description = Test resonances for Y axis
+gcode = 
+	M118 DO NOT TOUCH THE PRINTER UNTIL DONE!!!
+	HOME_IF_NEEDED
+	SHAPER_CALIBRATE AXIS=y
+	RUN_SHELL_COMMAND CMD=adxl_shape_y
+	M118 Test done
+	SAVE_AND_RESTART
+
+[gcode_shell_command adxl_shape_x]
+command = sh ~/printer_data/config/shaper/adxl_shape_x.sh
+timeout = 60.
+verbose = True
+
+[gcode_shell_command adxl_shape_y]
+command = sh ~/printer_data/config/shaper/adxl_shape_y.sh
+timeout = 60.
+verbose = True
+
+[gcode_macro _KAMP_Settings]
+description = This macro contains all adjustable settings for KAMP
+variable_verbose_enable = True
+variable_mesh_margin = 0
+variable_fuzz_amount = 0
+variable_probe_dock_enable = False
+variable_attach_macro = 'Attach_Probe'
+variable_detach_macro = 'Dock_Probe'
+variable_purge_height = 0.8
+variable_tip_distance = 0
+variable_purge_margin = 10
+variable_purge_amount = 30
+variable_flow_rate = 12
+variable_smart_park_height = 10
+gcode = 
+	
+	{action_respond_info(" Running the KAMP_Settings macro does nothing, it is only used for storing KAMP settings. ")}
+
+[gcode_shell_command backup_cfg]
+command = /usr/bin/bash /home/klipper/printer_data/config/autocommit.sh
+timeout = 30
+verbose = True
+
+[gcode_macro BACKUP_CFG]
+description = Backs up config directory GitHub
+gcode = 
+	RUN_SHELL_COMMAND CMD=backup_cfg
+
+[skew_correction]
+
+[gcode_arcs]
+resolution = 0.1
+
+[mcu]
+serial = /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0
+restart_method = command
+
+[printer]
+kinematics = cartesian
+max_velocity = 275
+max_accel = 3500
+max_z_velocity = 15
+max_z_accel = 45
+square_corner_velocity = 8.0
+
+[stepper_x]
+step_pin = PC2
+dir_pin = !PB9
+enable_pin = !PC3
+microsteps = 128
+rotation_distance = 39.56
+endstop_pin = tmc2209_stepper_x:virtual_endstop
+position_endstop = 0
+position_max = 223
+homing_speed = 40
+homing_retract_dist = 0
+
+[tmc2209 stepper_x]
+uart_pin = PC1
+run_current = 0.900
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.110
+uart_address = 3
+driver_sgthrs = 81
+diag_pin = PA5
+
+[stepper_y]
+step_pin = PB8
+dir_pin = PB7
+enable_pin = !PC3
+microsteps = 128
+rotation_distance = 39.40
+endstop_pin = tmc2209_stepper_y:virtual_endstop
+position_endstop = 0
+position_max = 223
+homing_speed = 40
+homing_retract_dist = 0
+
+[tmc2209 stepper_y]
+uart_pin = PC0
+run_current = 1.000
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.110
+uart_address = 3
+driver_sgthrs = 81
+diag_pin = PA6
+
+[stepper_z]
+step_pin = PB6
+dir_pin = !PB5
+enable_pin = !PC3
+microsteps = 128
+rotation_distance = 4
+endstop_pin = probe:z_virtual_endstop
+position_min = -3
+position_max = 258
+homing_speed = 5
+
+[tmc2209 stepper_z]
+uart_pin = PA15
+run_current = 1.000
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.110
+uart_address = 3
+diag_pin = PA7
+
+[extruder]
+step_pin = PB4
+dir_pin = !PB3
+enable_pin = !PC3
+microsteps = 256
+rotation_distance = 4.10
+nozzle_diameter = 0.400
+filament_diameter = 1.750
+heater_pin = PA1
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC5
+min_temp = 0
+max_temp = 300
+max_extrude_only_distance = 150.0
+pressure_advance = 0.0465
+max_extrude_cross_section = 5
+control = pid
+pid_kp = 23.147
+pid_ki = 1.559
+pid_kd = 85.934
+
+[tmc2209 extruder]
+uart_pin = PC14
+run_current = 0.550
+stealthchop_threshold = 0
+interpolate = False
+sense_resistor = 0.110
+uart_address = 3
+
+[heater_bed]
+heater_pin = PA2
+sensor_type = EPCOS 100K B57560G104F
+sensor_pin = PC4
+min_temp = 0
+max_temp = 110
+control = pid
+pid_kp = 68.957
+pid_ki = 1.281
+pid_kd = 928.332
+
+[probe]
+pin = PB1
+x_offset = 27
+y_offset = -20
+samples = 3
+samples_result = median
+samples_tolerance = 0.01
+samples_tolerance_retries = 5
+z_offset = 1.660
+
+[safe_z_home]
+home_xy_position = 84.50, 135
+speed = 100.0
+z_hop = 10
+z_hop_speed = 15
+
+[bed_mesh]
+speed = 175
+mesh_min = 27, 5
+mesh_max = 222, 203
+probe_count = 5,5
+algorithm = bicubic
+fade_start = 1
+fade_end = 10
+fade_target = 0
+
+[fan]
+pin = PA0
+
+[display]
+lcd_type = st7920
+cs_pin = PB12
+sclk_pin = PB13
+sid_pin = PB15
+encoder_pins = ^PB14, ^PB10
+click_pin = ^!PB2
+
+[input_shaper]
+shaper_freq_x = 55.0
+shaper_type_x = mzv
+shaper_freq_y = 40.6
+shaper_type_y = mzv
+
+[bed_screws]
+screw1_name = front left
+screw1 = 26.5, 31
+screw2_name = front right
+screw2 = 196.75, 31
+screw3_name = back right
+screw3 = 196.75, 201
+screw4_name = back left
+screw4 = 26.5, 201
+
+[screws_tilt_adjust]
+screw1_name = center
+screw1 = 84.50, 135
+screw2_name = front left
+screw2 = 0, 51
+screw3_name = front right
+screw3 = 169.75, 51
+screw4_name = back right
+screw4 = 169.75, 221
+screw5_name = back left
+screw5 = 0, 221
+speed = 50
+horizontal_move_z = 10
+screw_thread = CCW-M4
+
+[output_pin beeper]
+pin = PC6
+value = 0
+shutdown_value = 0
+pwm = True
+cycle_time = 0.0005
+
+[filament_switch_sensor filament_sensor]
+switch_pin = !PA4
+pause_on_runout = True
+insert_gcode = 
+	M117 Insert Detected
+	{ action_respond_info("Insert Detected") }
+runout_gcode = 
+	M117 Runout Detected
+	{ action_respond_info("Runout Detected") }
+	CONDITIONAL_BEEP i=3 dur=300 freq=400
+
+[gcode_macro update_git]
+gcode = 
+	RUN_SHELL_COMMAND CMD=update_git_script
+
+[gcode_shell_command update_git_script]
+command = bash /home/klipper/printer_data/klipper-backup/script.sh
+timeout = 90.0
+verbose = True
+
+[gcode_macro PRINT_START]
+gcode = 
+	{% set BED_TEMP = params.BED_TEMP|default(60)|float %}
+	{% set HOTEND_TEMP = params.HOTEND_TEMP|default(215)|float %}
+	
+	BED_MESH_CLEAR
+	
+	G90
+	
+	{% if printer.heater_bed.temperature < (BED_TEMP * 0.95) %}
+	
+	M140 S{BED_TEMP}
+	
+	G28
+	
+	G0 X{printer.toolhead.axis_minimum.x + 10} Y{printer.toolhead.axis_minimum.y + 10} Z5 F{250 * 60}
+	
+	{% endif %}
+	
+	M190 S{BED_TEMP}
+	
+	G28
+	
+	BED_MESH_CALIBRATE
+	
+	M104 S{HOTEND_TEMP}
+	
+	SMART_PARK
+	
+	M109 S{HOTEND_TEMP}
+	
+	LINE_PURGE
+	
+	SKEW_PROFILE LOAD=my_skew_profile
+
+[gcode_macro Home_Check]
+description = Checks if the printer is homed, if not it homes the printer
+gcode = 
+	{% if printer.toolhead.homed_axes != "xyz" %}
+	G28
+	{% endif %}
+
+[gcode_macro PREHEAT_PETG_Hatchbox]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(230)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(70)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PLA_Hatchbox]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(225)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(60)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PLA_Eryone]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(215)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(65)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PLA+_Eryone]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(215)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(65)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PETG_Polymaker]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(235)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(60)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PETG_California_Filament]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(240)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(70)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[gcode_macro PREHEAT_PETG_Sunlu]
+description = Preheats extruder and bed for PLA printing, extruder set to 150 to prevent filament leaking while homing etc
+gcode = 
+	{% set EXTRUDER_TEMP = params.EXTRUDER_TEMP|default(225)|float %}
+	{% set BED_TEMP = params.BED_TEMP|default(70)|float %}
+	SET_HEATER_TEMPERATURE HEATER=extruder TARGET={EXTRUDER_TEMP}
+	SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED_TEMP}
+
+[bed_mesh default]
+version = 1
+points = 
+	0.531719, 0.152031, -0.196406, -0.520469
+	0.523125, 0.156875, -0.200625, -0.520313
+	0.496562, 0.150937, -0.206250, -0.530469
+x_count = 4
+y_count = 3
+mesh_x_pps = 2
+mesh_y_pps = 2
+algo = lagrange
+tension = 0.2
+min_x = 46.71
+max_x = 173.28
+min_y = 100.21
+max_y = 119.78999999999999
+
+[skew_correction my_skew_profile]
+xy_skew = -2.220446049250313e-16
+xz_skew = 0.0
+yz_skew = 0.0
+=======================
+Extruder max_extrude_ratio=2.078758
+mcu 'mcu': Starting serial connect
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+mcu 'mcu': Unable to open serial port: [Errno 2] could not open port /dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0: [Errno 2] No such file or directory: '/dev/serial/by-path/pci-0000:00:12.0-usb-0:1:1.0-port0'
+MCU error during connect
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/mcu.py", line 798, in _mcu_identify
+    self._serial.connect_uart(self._serialport, self._baud, rts)
+  File "/home/Klipper/klipper/klippy/serialhdl.py", line 182, in connect_uart
+    self._error("Unable to connect")
+  File "/home/Klipper/klipper/klippy/serialhdl.py", line 61, in _error
+    raise error(self.warn_prefix + (msg % params))
+serialhdl.error: mcu 'mcu': Unable to connect
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/Klipper/klipper/klippy/klippy.py", line 176, in _connect
+    self.send_event("klippy:mcu_identify")
+  File "/home/Klipper/klipper/klippy/klippy.py", line 263, in send_event
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/home/Klipper/klipper/klippy/klippy.py", line 263, in <listcomp>
+    return [cb(*params) for cb in self.event_handlers.get(event, [])]
+  File "/home/Klipper/klipper/klippy/mcu.py", line 803, in _mcu_identify
+    raise error(str(e))
+mcu.error: mcu 'mcu': Unable to connect
+No build file /home/Klipper/klipper/klippy/../.config
+No build file /home/Klipper/klipper/klippy/../out/klipper.dict
+No build file /home/Klipper/klipper/klippy/../out/klipper.elf
